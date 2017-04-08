@@ -3,14 +3,16 @@ clear
 clc
 warning off all;
  
-currentFolder = pwd;
-addpath(genpath(currentFolder))
+%currentFolder = pwd;
+%addpath(genpath(strcat(currentFolder,'/../')))
+addpath(genpath('../enceval/vlfeat-0.9.14'))
 vl_setup
 
 addpath('./util');
 addpath(('./rstEval'));
-addpath(['./trackers/VIVID_Tracker'])
+addpath('./trackers/DeepKCF');
 
+% Modify Trackers
 seqs=configSeqs;
 
 trackers=configTrackers;
@@ -45,7 +47,7 @@ for idxSeq=1:length(seqs)
 %      if ~strcmp(s.name, 'coke')
 %         continue;
 %      end
-        
+    
     s.len = s.endFrame - s.startFrame + 1;
     s.s_frames = cell(s.len,1);
     nz	= strcat('%0',num2str(s.nz),'d'); %number of zeros in the name of image
@@ -130,9 +132,9 @@ for idxSeq=1:length(seqs)
 %             subS.s_frames = subS.s_frames(1:20);
 %             subS.len=20;
 %             subS.endFrame=subS.startFrame+subS.len-1;
-            
-            funcName = ['res=run_' t.name '(subS, rp, bSaveImage);'];
 
+            funcName=['res=run_' t.name '(subS, rp, bSaveImage);'];
+            
             try
                 switch t.name
                     case {'VR','TM','RS','PD','MS'}

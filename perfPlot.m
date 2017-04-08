@@ -2,8 +2,8 @@ clear
 close all;
 clc
 
-currentFolder = pwd;
-addpath(genpath(strcat(currentFolder,'/../')))
+addpath(genpath('../enceval/vlfeat-0.9.14'))
+vl_setup
 
 addpath('./util');
 
