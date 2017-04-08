@@ -1,5 +1,11 @@
 function trackers=configTrackers
 
+trackersDeepKCF={struct('name','DeepKCF','namePaper','VR-V'),...%gray-25%
+    struct('name','TLD','namePaper','TLD'),...    
+    struct('name','ivt','namePaper','IVT'),...
+    struct('name','DFT','namePaper','DFT'),...%yellow
+};
+
 trackersVIVID={struct('name','VR','namePaper','VR-V'),...%gray-25%
     struct('name','TM','namePaper','TM-V'),...%dark red
     struct('name','RS','namePaper','RS-V'),...%orange
@@ -33,4 +39,5 @@ trackersEXE={ struct('name','cpf','namePaper','CPF'),...
     struct('name','VTD','namePaper','VTD'),...
     struct('name','CXT','namePaper','CXT')};
 
-trackers = [trackersVIVID,trackers1,trackersEXE];
+trackers = trackersDeepKCF;
+%trackers = [trackersVIVID,trackers1,trackersEXE];
