@@ -10850,4 +10850,20 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
    doShortcut = awtAvailable && LocalIsPaperPositionModeAuto(pj) && ...
 
 Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alternatePrintPath', '/usr/local/MATLAB/R2015b/toolbox/matlab/graphics/private/alternatePrintPath.p', 80)" style="font-weight:bold">alternatePrintPath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2015b/toolbox/matlab/graphics/private/alternatePrintPath.p',80,0)">line 80</a>)
-    [printDone, pj] = LocalTryGetframeWithDecor
+    [printDone, pj] = LocalTryGetframeWithDecorationsShortcut(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', '/usr/local/MATLAB/R2015b/toolbox/matlab/graphics/print.m', 212)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2015b/toolbox/matlab/graphics/print.m',212,0)">line 212</a>)
+    pj = alternatePrintPath(pj);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('saveas', '/usr/local/MATLAB/R2015b/toolbox/matlab/general/saveas.m', 168)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2015b/toolbox/matlab/general/saveas.m',168,0)">line 168</a>)
+        print( h, name, ['-d' dev{i}] )
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDrawSave', '/raid/hustxly/OTB/OTB_Tracker/util/plotDrawSave.m', 121)" style="font-weight:bold">plotDrawSave</a> (<a href="matlab: opentoline('/raid/hustxly/OTB/OTB_Tracker/util/plotDrawSave.m',121,0)">line 121</a>)
+saveas(gcf,figName,'png');
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('perfPlot', '/raid/hustxly/OTB/OTB_Tracker/perfPlot.m', 201)" style="font-weight:bold">perfPlot</a> (<a href="matlab: opentoline('/raid/hustxly/OTB/OTB_Tracker/perfPlot.m',201,0)">line 201</a>)
+            plotDrawSave(numTrk,plotDrawStyle,aveSuccessRatePlot,idxSeqSet,rankNum,rankingType,rankIdx,nameTrkAll,thresholdSet,titleName,
+            xLabelName,yLabelName,figName,metricType);
+
+} 
