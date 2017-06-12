@@ -105,8 +105,8 @@ end
 metricTypeSet = {'error', 'overlap'};
 
 %TODO add VOT results
-evalTypeSet = {'SRE', 'TRE', 'OPE'};
-
+%evalTypeSet = {'SRE', 'TRE', 'OPE'};
+evalTypeSet = {'TRE'};
 rankingType = 'AUC';%AUC, threshod
 
 rankNum = 10;%number of plots to show
@@ -159,6 +159,7 @@ for i=1:length(metricTypeSet)
         
         % If the performance Mat file, dataName, does not exist, it will call
         % genPerfMat to generate the file.
+        addpath(dataName);
         if ~exist(dataName)
             genPerfMat(seqs, trackers, evalType, nameTrkAll, perfMatPath);
         end        
