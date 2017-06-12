@@ -19,7 +19,7 @@ trackers=configTrackers;
 
 shiftTypeSet = {'left','right','up','down','topLeft','topRight','bottomLeft','bottomRight','scale_8','scale_9','scale_11','scale_12'};
 
-evalType='TRE'; %'OPE','SRE','TRE'
+evalType='SRE'; %'OPE','SRE','TRE'
 
 diary(['./tmp/' evalType '.txt']);
 
@@ -43,11 +43,9 @@ pathAnno = './anno/';
 
 for idxSeq=1:length(seqs)
     s = seqs{idxSeq};
-    
 %      if ~strcmp(s.name, 'coke')
 %         continue;
 %      end
-    
     s.len = s.endFrame - s.startFrame + 1;
     s.s_frames = cell(s.len,1);
     nz	= strcat('%0',num2str(s.nz),'d'); %number of zeros in the name of image
@@ -57,6 +55,7 @@ for idxSeq=1:length(seqs)
         s.s_frames{i} = strcat(s.path,id,'.',s.ext);
     end
     
+    addpath(s.path)
     img = imread(s.s_frames{1});
     [imgH,imgW,ch]=size(img);
     
@@ -101,6 +100,8 @@ for idxSeq=1:length(seqs)
 %             continue;
 %         end
 
+        t_path = [finalPath s.name '_' t.name '.mat'];
+        addpath(t_path)
         % validate the results
         if exist([finalPath s.name '_' t.name '.mat'])
             load([finalPath s.name '_' t.name '.mat']);
@@ -134,7 +135,6 @@ for idxSeq=1:length(seqs)
 %             subS.endFrame=subS.startFrame+subS.len-1;
 
             funcName=['res=run_' t.name '(subS, rp, bSaveImage);'];
-            
             try
                 switch t.name
                     case {'VR','TM','RS','PD','MS'}
@@ -151,7 +151,6 @@ for idxSeq=1:length(seqs)
                         rmpath(genpath('./'))
                         cd('../../');
                 end
-                
                 if isempty(res)
                     results = [];
                     break;
@@ -176,7 +175,10 @@ for idxSeq=1:length(seqs)
             results{idx} = res;
             
         end
-        save([finalPath s.name '_' t.name '.mat'], 'results');
+        save_path = [finalPath s.name '_' t.name '.mat'];
+        addpath(save_path)
+        save(save_path, 'results');
+        rmpath(s.path)
     end
 end
 
