@@ -2,7 +2,6 @@ function trackers=configTrackers
 
 trackersDeepKCF={struct('name','DeepKCF','namePaper','VR-V'),...%gray-25%
     struct('name','TLD','namePaper','TLD'),...    
-    struct('name','ivt','namePaper','IVT'),...
     struct('name','DFT','namePaper','DFT'),...%yellow
 };
 
