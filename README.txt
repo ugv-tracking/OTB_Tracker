@@ -1,8 +1,3 @@
-This code library is for research purpose only.
-We distribute our library under the GNU-GPL license.
-If you use this library or the dataset, please cite our paper:
-[1] Y. Wu, J. Lim, and M.-H. Yang, ¡°Online Object Tracking: A Benchmark,¡± in CVPR, 2013.
-
 The project website is http://visual-tracking.net/ and the library will be updated on it.
  
 The information for trackers is listed in the file Trackers.txt.
@@ -35,9 +30,8 @@ The notes for the folders:
 	* perfPlot.m is the main function for drawing performance plots.
 		- It will call 'genPerfMat.m' to generate the values for plots.
 	* drawResultBB.m is the main function for drawing bounding boxes (BBs) of different trackers on each frame	
-	
-	
-	
-Yi Wu, Jongwoo Lim and Ming-Hsuan Yang, June 2013
 
-Last updated, Jun 02, 2013
+3.Add DeepKCF into the trackers
+    * Link Benchmark files into the OTB root holder.
+    * cd into the trackers holder, git clone the DeepKCF repo into this holder
+    * configre the configTrackers.m in the util holder, this will enable the comparision of the proposed tracker with others.
