@@ -32,6 +32,11 @@ The notes for the folders:
 	* drawResultBB.m is the main function for drawing bounding boxes (BBs) of different trackers on each frame	
 
 3.Add DeepKCF into the trackers
+    * Keep in minde only tensorflow 1.1 and cudnn 5.1 is supported for the validation. Since the higher version will introduce conflicts.
     * Link Benchmark files into the OTB root holder.
     * cd into the trackers holder, git clone the DeepKCF repo into this holder
     * configre the configTrackers.m in the util holder, this will enable the comparision of the proposed tracker with others.
+
+4.Tensorflow configuration
+    * update tensorflwo into r1.1 `sudo pip  install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.1.0-cp27-none-linux_x86_64.whl`
+    * use cudnn 5.1, download cudnn 5.1 `https://developer.nvidia.com/rdp/cudnn-download`, and install under the cudnn install direction `http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html`.
