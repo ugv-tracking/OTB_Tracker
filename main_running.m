@@ -40,6 +40,8 @@ if ~exist(tmpRes_path,'dir')
 end
 
 pathAnno = './anno/';
+pathRoot = pwd;
+
 
 for idxSeq=1:length(seqs)
     s = seqs{idxSeq};
@@ -119,6 +121,8 @@ for idxSeq=1:length(seqs)
 
         results = [];
         for idx=1:length(subSeqs)
+            cd(pathRoot);
+            
             disp([num2str(idxTrk) '_' t.name ', ' num2str(idxSeq) '_' s.name ': ' num2str(idx) '/' num2str(length(subSeqs))])       
 
             rp = [tmpRes_path s.name '_' t.name '_' num2str(idx) '/'];
@@ -149,7 +153,6 @@ for idxSeq=1:length(seqs)
                     case {'VR','TM','RS','PD','MS'}
                     otherwise
                         rmpath(genpath('./'))
-                        cd('../../');
                 end
                 if isempty(res)
                     results = [];
@@ -158,7 +161,6 @@ for idxSeq=1:length(seqs)
             catch err
                 disp('error');
                 rmpath(genpath('./'))
-                cd('../../');
                 res=[];
                 continue;
             end
@@ -175,6 +177,8 @@ for idxSeq=1:length(seqs)
             results{idx} = res;
             
         end
+        
+        cd(pathRoot);
         save_path = [finalPath s.name '_' t.name '.mat'];
         addpath(save_path)
         save(save_path, 'results');
@@ -182,7 +186,7 @@ for idxSeq=1:length(seqs)
     end
 end
 
-figure
+%figure
 t=clock;
 t=uint8(t(2:end));
 disp([num2str(t(1)) '/' num2str(t(2)) ' ' num2str(t(3)) ':' num2str(t(4)) ':' num2str(t(5))]);

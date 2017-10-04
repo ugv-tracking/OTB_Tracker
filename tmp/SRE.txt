@@ -10867,3 +10867,5646 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
             xLabelName,yLabelName,figName,metricType);
 
 } 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mkdir')" style="font-weight:bold">mkdir</a>
+No such file or directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 32)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',32,0)">line 32</a>)
+    mkdir(finalPath);
+
+} 
+matlab.internal.language.introspective.errorDocCallback('mkdir')
+main_running
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', '/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p', 349)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p',349,0)">line 349</a>)
+File "Benchmark/Matrix/img/0001.jpg" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 59)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',59,0)">line 59</a>)
+    img = imread(s.s_frames{1});
+
+} 
+main_running
+1_DeepKCF, 1_matrix: 1/12
+error
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+1_DeepKCF, 1_matrix: 4/12
+error
+1_DeepKCF, 1_matrix: 5/12
+error
+1_DeepKCF, 1_matrix: 6/12
+error
+1_DeepKCF, 1_matrix: 7/12
+error
+1_DeepKCF, 1_matrix: 8/12
+error
+1_DeepKCF, 1_matrix: 9/12
+error
+1_DeepKCF, 1_matrix: 10/12
+error
+1_DeepKCF, 1_matrix: 11/12
+error
+1_DeepKCF, 1_matrix: 12/12
+error
+2_TLD, 1_matrix: 1/12
+error
+2_TLD, 1_matrix: 2/12
+error
+2_TLD, 1_matrix: 3/12
+error
+2_TLD, 1_matrix: 4/12
+error
+2_TLD, 1_matrix: 5/12
+error
+2_TLD, 1_matrix: 6/12
+error
+2_TLD, 1_matrix: 7/12
+error
+2_TLD, 1_matrix: 8/12
+error
+2_TLD, 1_matrix: 9/12
+error
+2_TLD, 1_matrix: 10/12
+error
+2_TLD, 1_matrix: 11/12
+error
+2_TLD, 1_matrix: 12/12
+error
+3_DFT, 1_matrix: 1/12
+error
+3_DFT, 1_matrix: 2/12
+error
+3_DFT, 1_matrix: 3/12
+error
+3_DFT, 1_matrix: 4/12
+error
+3_DFT, 1_matrix: 5/12
+error
+3_DFT, 1_matrix: 6/12
+error
+3_DFT, 1_matrix: 7/12
+error
+3_DFT, 1_matrix: 8/12
+error
+3_DFT, 1_matrix: 9/12
+error
+3_DFT, 1_matrix: 10/12
+error
+3_DFT, 1_matrix: 11/12
+error
+3_DFT, 1_matrix: 12/12
+error
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', '/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p', 349)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p',349,0)">line 349</a>)
+File "Benchmark/Ironman/img/0001.jpg" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 59)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',59,0)">line 59</a>)
+    img = imread(s.s_frames{1});
+
+} 
+ls
+anno	   drawResultBB.m  genPerfMat.m  main_running.m  perfPlot.m  results  tmp	trackers.txt
+Benchmark  figs		   initOmit	 perfMat	 README.txt  rstEval  trackers	util
+
+ls'
+
+ans =
+
+a
+n
+n
+o
+	
+ 
+ 
+ 
+d
+r
+a
+w
+R
+e
+s
+u
+l
+t
+B
+B
+.
+m
+ 
+ 
+g
+e
+n
+P
+e
+r
+f
+M
+a
+t
+.
+m
+ 
+ 
+m
+a
+i
+n
+_
+r
+u
+n
+n
+i
+n
+g
+.
+m
+ 
+ 
+p
+e
+r
+f
+P
+l
+o
+t
+.
+m
+ 
+ 
+r
+e
+s
+u
+l
+t
+s
+ 
+ 
+t
+m
+p
+	
+t
+r
+a
+c
+k
+e
+r
+s
+.
+t
+x
+t
+
+
+B
+e
+n
+c
+h
+m
+a
+r
+k
+ 
+ 
+f
+i
+g
+s
+	
+	
+ 
+ 
+ 
+i
+n
+i
+t
+O
+m
+i
+t
+	
+ 
+p
+e
+r
+f
+M
+a
+t
+	
+ 
+R
+E
+A
+D
+M
+E
+.
+t
+x
+t
+ 
+ 
+r
+s
+t
+E
+v
+a
+l
+ 
+ 
+t
+r
+a
+c
+k
+e
+r
+s
+	
+u
+t
+i
+l
+
+
+
+ls
+anno	   drawResultBB.m  genPerfMat.m  main_running.m  perfPlot.m  results  tmp	trackers.txt
+Benchmark  figs		   initOmit	 perfMat	 README.txt  rstEval  trackers	util
+
+ll
+{Undefined function or variable 'll'.
+} 
+l;
+{Undefined function or variable 'l'.
+} 
+lk
+{Undefined function or variable 'lk'.
+} 
+ls
+anno	   drawResultBB.m  genPerfMat.m  main_running.m  perfPlot.m  results  tmp	trackers.txt
+Benchmark  figs		   initOmit	 perfMat	 README.txt  rstEval  trackers	util
+
+clear
+ls'
+
+ans =
+
+a
+n
+n
+o
+	
+ 
+ 
+ 
+d
+r
+a
+w
+R
+e
+s
+u
+l
+t
+B
+B
+.
+m
+ 
+ 
+g
+e
+n
+P
+e
+r
+f
+M
+a
+t
+.
+m
+ 
+ 
+m
+a
+i
+n
+_
+r
+u
+n
+n
+i
+n
+g
+.
+m
+ 
+ 
+p
+e
+r
+f
+P
+l
+o
+t
+.
+m
+ 
+ 
+r
+e
+s
+u
+l
+t
+s
+ 
+ 
+t
+m
+p
+	
+t
+r
+a
+c
+k
+e
+r
+s
+.
+t
+x
+t
+
+
+B
+e
+n
+c
+h
+m
+a
+r
+k
+ 
+ 
+f
+i
+g
+s
+	
+	
+ 
+ 
+ 
+i
+n
+i
+t
+O
+m
+i
+t
+	
+ 
+p
+e
+r
+f
+M
+a
+t
+	
+ 
+R
+E
+A
+D
+M
+E
+.
+t
+x
+t
+ 
+ 
+r
+s
+t
+E
+v
+a
+l
+ 
+ 
+t
+r
+a
+c
+k
+e
+r
+s
+	
+u
+t
+i
+l
+
+
+
+ls
+anno	   drawResultBB.m  genPerfMat.m  main_running.m  perfPlot.m  results  tmp	trackers.txt
+Benchmark  figs		   initOmit	 perfMat	 README.txt  rstEval  trackers	util
+
+ls
+anno	   drawResultBB.m  genPerfMat.m  main_running.m  perfPlot.m  results  tmp	trackers.txt
+Benchmark  figs		   initOmit	 perfMat	 README.txt  rstEval  trackers	util
+
+clear
+main_running
+Empty all
+matrix DeepKCF
+Empty all
+matrix TLD
+Empty all
+matrix DFT
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imread', '/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p', 349)" style="font-weight:bold">imread</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/imagesci/imread.p',349,0)">line 349</a>)
+File "Benchmark/Ironman/img/0001.jpg" does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 59)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',59,0)">line 59</a>)
+    img = imread(s.s_frames{1});
+
+} 
+main_running
+Empty all
+matrix DeepKCF
+Empty all
+matrix TLD
+Empty all
+matrix DFT
+1_DeepKCF, 2_ironman: 1/12
+error
+1_DeepKCF, 2_ironman: 2/12
+error
+1_DeepKCF, 2_ironman: 3/12
+error
+1_DeepKCF, 2_ironman: 4/12
+error
+1_DeepKCF, 2_ironman: 5/12
+error
+1_DeepKCF, 2_ironman: 6/12
+error
+1_DeepKCF, 2_ironman: 7/12
+error
+1_DeepKCF, 2_ironman: 8/12
+error
+1_DeepKCF, 2_ironman: 9/12
+error
+1_DeepKCF, 2_ironman: 10/12
+error
+1_DeepKCF, 2_ironman: 11/12
+error
+1_DeepKCF, 2_ironman: 12/12
+error
+2_TLD, 2_ironman: 1/12
+error
+2_TLD, 2_ironman: 2/12
+error
+2_TLD, 2_ironman: 3/12
+error
+2_TLD, 2_ironman: 4/12
+error
+2_TLD, 2_ironman: 5/12
+error
+2_TLD, 2_ironman: 6/12
+error
+2_TLD, 2_ironman: 7/12
+error
+2_TLD, 2_ironman: 8/12
+error
+2_TLD, 2_ironman: 9/12
+error
+2_TLD, 2_ironman: 10/12
+error
+2_TLD, 2_ironman: 11/12
+error
+2_TLD, 2_ironman: 12/12
+error
+3_DFT, 2_ironman: 1/12
+error
+3_DFT, 2_ironman: 2/12
+error
+3_DFT, 2_ironman: 3/12
+error
+3_DFT, 2_ironman: 4/12
+error
+3_DFT, 2_ironman: 5/12
+error
+3_DFT, 2_ironman: 6/12
+error
+3_DFT, 2_ironman: 7/12
+error
+3_DFT, 2_ironman: 8/12
+error
+3_DFT, 2_ironman: 9/12
+error
+3_DFT, 2_ironman: 10/12
+error
+3_DFT, 2_ironman: 11/12
+error
+3_DFT, 2_ironman: 12/12
+error
+10/4 8:52:55
+main_running
+1_DeepKCF, 1_matrix: 1/12
+error
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+1_DeepKCF, 1_matrix: 4/12
+error
+1_DeepKCF, 1_matrix: 5/12
+error
+1_DeepKCF, 1_matrix: 6/12
+error
+1_DeepKCF, 1_matrix: 7/12
+error
+1_DeepKCF, 1_matrix: 8/12
+error
+1_DeepKCF, 1_matrix: 9/12
+error
+1_DeepKCF, 1_matrix: 10/12
+error
+1_DeepKCF, 1_matrix: 11/12
+error
+1_DeepKCF, 1_matrix: 12/12
+error
+Empty all
+matrix TLD
+Empty all
+matrix DFT
+1_DeepKCF, 2_ironman: 1/12
+error
+1_DeepKCF, 2_ironman: 2/12
+error
+1_DeepKCF, 2_ironman: 3/12
+error
+1_DeepKCF, 2_ironman: 4/12
+error
+1_DeepKCF, 2_ironman: 5/12
+error
+1_DeepKCF, 2_ironman: 6/12
+error
+1_DeepKCF, 2_ironman: 7/12
+error
+1_DeepKCF, 2_ironman: 8/12
+error
+1_DeepKCF, 2_ironman: 9/12
+error
+1_DeepKCF, 2_ironman: 10/12
+error
+1_DeepKCF, 2_ironman: 11/12
+error
+1_DeepKCF, 2_ironman: 12/12
+error
+Empty all
+ironman TLD
+Empty all
+ironman DFT
+10/4 8:53:27
+main_running
+Empty all
+matrix DeepKCF
+Empty all
+matrix TLD
+Empty all
+matrix DFT
+Empty all
+ironman DeepKCF
+Empty all
+ironman TLD
+Empty all
+ironman DFT
+10/4 10:20:25
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Oct  4 10:20:44 2017
+------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding      : Disabled
+  Crash Mode          : continue (default)
+  Current Graphics Driver: Unknown hardware 
+  Current Visual      : 0x21 (class 4, depth 24)
+  Default Encoding    : UTF-8
+  GNU C Library       : 2.19 stable
+  Host Name           : yisha-H170-D3HP
+  MATLAB Architecture : glnxa64
+  MATLAB Root         : /home/yisha/Software/Matlab
+  MATLAB Version      : 8.5.0.197613 (R2015a)
+  OpenGL              : hardware
+  Operating System    : Linux 4.4.0-81-generic #104~14.04.1-Ubuntu SMP Wed Jun 14 12:45:52 UTC 2017 x86_64
+  Processor ID        : x86 Family 6 Model 94 Stepping 3, GenuineIntel
+  Virtual Machine     : Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  Window System       : The X.Org Foundation (11501000), display :0
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Register State (from fault):
+  RAX = 0000000000000008  RBX = 00007f37df27ed58
+  RCX = 0000000000000008  RDX = 000000000000ffff
+  RSP = 00007f394b0fb558  RBP = 0000fe71668926f8
+  RSI = 00007f37def94cb0  RDI = 0000fe71668926f0
+
+   R8 = 0000000000000000   R9 = 0000000000000010
+  R10 = 00007f3960257cc0  R11 = 0000000000000005
+  R12 = 00007f394b0fb640  R13 = 0000000000000010
+  R14 = 0000000000000057  R15 = 0000000000000016
+
+  RIP = 00007f3960311adc  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00007f3960311adc                    /lib/x86_64-linux-gnu/libc.so.6+01325788
+[  1] 0x00007f37dee5e09e    /usr/local/lib/x86_64-linux-gnu/libQt5Core.so.5+02592926 _ZN9QMetaType22registerNormalizedTypeERK10QByteArrayPFvPvEPFS3_PKvES5_PFS3_S3_S7_Ei6QFlagsINS_8TypeFlagEEPK11QMetaObject+00000190
+[  2] 0x00007f37df3467b7     /usr/local/lib/x86_64-linux-gnu/libQt5Gui.so.5+00767927
+[  3] 0x00007f3962d6b2da                        /lib64/ld-linux-x86-64.so.2+00066266
+[  4] 0x00007f3962d6b3c3                        /lib64/ld-linux-x86-64.so.2+00066499
+[  5] 0x00007f3962d6fe00                        /lib64/ld-linux-x86-64.so.2+00085504
+[  6] 0x00007f3962d6b194                        /lib64/ld-linux-x86-64.so.2+00065940
+[  7] 0x00007f3962d6f54b                        /lib64/ld-linux-x86-64.so.2+00083275
+[  8] 0x00007f395f51c02b                   /lib/x86_64-linux-gnu/libdl.so.2+00004139
+[  9] 0x00007f3962d6b194                        /lib64/ld-linux-x86-64.so.2+00065940
+[ 10] 0x00007f395f51c62d                   /lib/x86_64-linux-gnu/libdl.so.2+00005677
+[ 11] 0x00007f395f51c0c1                   /lib/x86_64-linux-gnu/libdl.so.2+00004289 dlopen+00000049
+[ 12] 0x00007f3817174dde      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01379806 _PyImport_GetDynLoadFunc+00000286
+[ 13] 0x00007f381714939e      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01201054 _PyImport_LoadDynamicModule+00000110
+[ 14] 0x00007f38171ca609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 15] 0x00007f38171c37c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 16] 0x00007f381719785f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 17] 0x00007f381713a0a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 18] 0x00007f38171cd5f7      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01742327 PyEval_CallObjectWithKeywords+00000071
+[ 19] 0x00007f38171616d3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01300179 PyEval_EvalFrameEx+00010003
+[ 20] 0x00007f3817165c3d      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01317949 PyEval_EvalCodeEx+00002061
+[ 21] 0x00007f3817165f22      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01318690 PyEval_EvalCode+00000050
+[ 22] 0x00007f381716677c      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01320828 PyImport_ExecCodeModuleEx+00000140
+[ 23] 0x00007f38171c9ef6      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01728246
+[ 24] 0x00007f38171ca609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 25] 0x00007f38171c37c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 26] 0x00007f381719785f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 27] 0x00007f381713a0a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 28] 0x00007f38170eda8b      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+00825995 PyObject_CallFunction+00000187
+[ 29] 0x00007f3817144ca2      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01182882 PyImport_Import+00000274
+[ 30] 0x00007f38175d602f /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00319535
+[ 31] 0x00007f38175cf9fc /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00293372
+[ 32] 0x00007f38175ecb34 /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00412468
+[ 33] 0x00007f3948bc3d66 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01830246
+[ 34] 0x00007f3948bc44ef /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832175
+[ 35] 0x00007f3948bc478a /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832842
+[ 36] 0x00007f3948b73a09 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01501705
+[ 37] 0x00007f3948c791e7 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+02572775
+[ 38] 0x00007f395510a6b7 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00693943
+[ 39] 0x00007f395510fe4e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00716366 mdFindImport+00000270
+[ 40] 0x00007f3955515c8f /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01772687
+[ 41] 0x00007f395552f98d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01878413
+[ 42] 0x00007f395553da1d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01935901
+[ 43] 0x00007f3955533a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 44] 0x00007f3955533be3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895395
+[ 45] 0x00007f395554933f /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01983295
+[ 46] 0x00007f395554a6c8 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01988296
+[ 47] 0x00007f395554ad94 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01990036
+[ 48] 0x00007f3955549577 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01983863
+[ 49] 0x00007f3955533a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 50] 0x00007f3955546284 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01970820
+[ 51] 0x00007f3955569676 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+02115190 _Z11mps_M_to_IRIcEP9term_nodePbPP13variable_nodePmPS6_S6_PP9M_token_TIT_ES6_PPP9_constantPP15_M_parse_tree_TIS9_EP10_M_to_IR_TIS9_EPKS9_SP_PKNSt13make_unsignedIS9_E4typeEmN16fn_is_function_TIS9_E4typeEPvSY_N15fn_find_class_TIS9_E4typeEN16fn_is_variable_TIS9_E4typeESY_ib+00000230
+[ 52] 0x00007f395438234e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04100942
+[ 53] 0x00007f3954383ac1 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04106945
+[ 54] 0x00007f3955128a16 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00817686 _ZN8Mlm_file7load_mfEv+00000134
+[ 55] 0x00007f39550dcfaa /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00507818 _ZN13Mlm_MATLAB_fn8try_loadEv+00000042
+[ 56] 0x00007f3955127857 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00813143 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00000103
+[ 57] 0x00007f3955127fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 58] 0x00007f3954397d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 59] 0x00007f3954347432 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03859506
+[ 60] 0x00007f39543496d8 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03868376
+[ 61] 0x00007f395434f597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 62] 0x00007f395434acff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 63] 0x00007f395434bcb5 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03878069
+[ 64] 0x00007f395433e897 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03823767
+[ 65] 0x00007f3954340b99 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03832729
+[ 66] 0x00007f395433d38d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03818381
+[ 67] 0x00007f395433dbe6 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03820518
+[ 68] 0x00007f3954339c85 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03804293
+[ 69] 0x00007f39550e9305 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00557829
+[ 70] 0x00007f39550d0744 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00456516 _ZN13Mfh_MATLAB_fn11dispatch_fhEiPP11mxArray_tagiS2_+00000244
+[ 71] 0x00007f3954397d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 72] 0x00007f39543184b3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03667123
+[ 73] 0x00007f39543486ee /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03864302
+[ 74] 0x00007f395434f597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 75] 0x00007f395434acff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 76] 0x00007f395434b934 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03877172
+[ 77] 0x00007f39543c12ce /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04358862
+[ 78] 0x00007f3955127c39 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00814137 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00001097
+[ 79] 0x00007f3955127fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 80] 0x00007f3954397d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 81] 0x00007f39543184b3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03667123
+[ 82] 0x00007f39543486ee /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03864302
+[ 83] 0x00007f395434f597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 84] 0x00007f395434acff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 85] 0x00007f395434b934 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03877172
+[ 86] 0x00007f39543c12ce /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04358862
+[ 87] 0x00007f3955127c39 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00814137 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00001097
+[ 88] 0x00007f3955127fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 89] 0x00007f3954380495 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04093077
+[ 90] 0x00007f3954340fb9 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03833785
+[ 91] 0x00007f395433d3f5 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03818485
+[ 92] 0x00007f395433dad3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03820243
+[ 93] 0x00007f3956033b6c /home/yisha/Software/Matlab/bin/glnxa64/libmwbridge.so+00228204
+[ 94] 0x00007f3956034751 /home/yisha/Software/Matlab/bin/glnxa64/libmwbridge.so+00231249 _Z8mnParserv+00000737
+[ 95] 0x00007f396173c3af /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00799663 _ZN11mcrInstance30mnParser_on_interpreter_threadEv+00000031
+[ 96] 0x00007f396171c133 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00667955
+[ 97] 0x00007f396171dfd9 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00675801 _ZN5boost6detail11task_objectIvNS_3_bi6bind_tIvPFvRKNS_8functionIFvvEEEENS2_5list1INS2_5valueIS6_EEEEEEE6do_runEv+00000025
+[ 98] 0x00007f396171e9a7 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00678311 _ZN5boost6detail9task_baseIvE3runEv+00000071
+[ 99] 0x00007f396171ea07 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00678407
+[100] 0x00007f3961719d8a /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00658826
+[101] 0x00007f39536d3a56 /home/yisha/Software/Matlab/bin/glnxa64/libmwuix.so+00334422
+[102] 0x00007f39536bb3a2 /home/yisha/Software/Matlab/bin/glnxa64/libmwuix.so+00234402
+[103] 0x00007f3961f0af1f /home/yisha/Software/Matlab/bin/glnxa64/libmwservices.so+02621215
+[104] 0x00007f3961f0b08c /home/yisha/Software/Matlab/bin/glnxa64/libmwservices.so+02621580
+[105] 0x00007f3961f0cbdf /home/yisha/Software/Matlab/bin/glnxa64/libmwservices.so+02628575
+[106] 0x00007f3961f0d61c /home/yisha/Software/Matlab/bin/glnxa64/libmwservices.so+02631196 _Z25svWS_ProcessPendingEventsiib+00000092
+[107] 0x00007f396171a408 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00660488
+[108] 0x00007f396171a724 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00661284
+[109] 0x00007f3961706b0d /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00580365
+[110] 0x00007f396059f184              /lib/x86_64-linux-gnu/libpthread.so.0+00033156
+[111] 0x00007f39602cbffd                    /lib/x86_64-linux-gnu/libc.so.6+01040381 clone+00000109
+[112] 0x0000000000000000                                   <unknown-module>+00000000
+
+
+If this problem is reproducible, please submit a Service Request via:
+    http://www.mathworks.com/support/contact_us/
+
+A technical support engineer might contact you with further information.
+
+Thank you for your help.** This crash report has been saved to disk as /home/maxtom/matlab_crash_dump.3153-1 **
+
+
+Caught MathWorks::System::FatalException
+exit
+1_DeepKCF, 1_matrix: 1/12
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Oct  4 10:21:55 2017
+------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding      : Disabled
+  Crash Mode          : continue (default)
+  Current Graphics Driver: Unknown hardware 
+  Current Visual      : 0x21 (class 4, depth 24)
+  Default Encoding    : UTF-8
+  GNU C Library       : 2.19 stable
+  Host Name           : yisha-H170-D3HP
+  MATLAB Architecture : glnxa64
+  MATLAB Root         : /home/yisha/Software/Matlab
+  MATLAB Version      : 8.5.0.197613 (R2015a)
+  OpenGL              : hardware
+  Operating System    : Linux 4.4.0-81-generic #104~14.04.1-Ubuntu SMP Wed Jun 14 12:45:52 UTC 2017 x86_64
+  Processor ID        : x86 Family 6 Model 94 Stepping 3, GenuineIntel
+  Virtual Machine     : Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  Window System       : The X.Org Foundation (11501000), display :0
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Register State (from fault):
+  RAX = 0000000000000008  RBX = 00007f5a58c4bd58
+  RCX = 0000000000000008  RDX = 000000000000ffff
+  RSP = 00007f5bc4c79558  RBP = 0000feb6668b4e58
+  RSI = 00007f5a58961cb0  RDI = 0000feb6668b4e50
+
+   R8 = 0000000000000000   R9 = 0000000000000010
+  R10 = 00007f5bd9dd5cc0  R11 = 0000000000000005
+  R12 = 00007f5bc4c79640  R13 = 0000000000000010
+  R14 = 0000000000000057  R15 = 0000000000000016
+
+  RIP = 00007f5bd9e8fadc  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00007f5bd9e8fadc                    /lib/x86_64-linux-gnu/libc.so.6+01325788
+[  1] 0x00007f5a5882b09e    /usr/local/lib/x86_64-linux-gnu/libQt5Core.so.5+02592926 _ZN9QMetaType22registerNormalizedTypeERK10QByteArrayPFvPvEPFS3_PKvES5_PFS3_S3_S7_Ei6QFlagsINS_8TypeFlagEEPK11QMetaObject+00000190
+[  2] 0x00007f5a58d137b7     /usr/local/lib/x86_64-linux-gnu/libQt5Gui.so.5+00767927
+[  3] 0x00007f5bdc8e92da                        /lib64/ld-linux-x86-64.so.2+00066266
+[  4] 0x00007f5bdc8e93c3                        /lib64/ld-linux-x86-64.so.2+00066499
+[  5] 0x00007f5bdc8ede00                        /lib64/ld-linux-x86-64.so.2+00085504
+[  6] 0x00007f5bdc8e9194                        /lib64/ld-linux-x86-64.so.2+00065940
+[  7] 0x00007f5bdc8ed54b                        /lib64/ld-linux-x86-64.so.2+00083275
+[  8] 0x00007f5bd909a02b                   /lib/x86_64-linux-gnu/libdl.so.2+00004139
+[  9] 0x00007f5bdc8e9194                        /lib64/ld-linux-x86-64.so.2+00065940
+[ 10] 0x00007f5bd909a62d                   /lib/x86_64-linux-gnu/libdl.so.2+00005677
+[ 11] 0x00007f5bd909a0c1                   /lib/x86_64-linux-gnu/libdl.so.2+00004289 dlopen+00000049
+[ 12] 0x00007f5a94bc5dde      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01379806 _PyImport_GetDynLoadFunc+00000286
+[ 13] 0x00007f5a94b9a39e      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01201054 _PyImport_LoadDynamicModule+00000110
+[ 14] 0x00007f5a94c1b609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 15] 0x00007f5a94c147c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 16] 0x00007f5a94be885f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 17] 0x00007f5a94b8b0a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 18] 0x00007f5a94c1e5f7      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01742327 PyEval_CallObjectWithKeywords+00000071
+[ 19] 0x00007f5a94bb26d3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01300179 PyEval_EvalFrameEx+00010003
+[ 20] 0x00007f5a94bb6c3d      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01317949 PyEval_EvalCodeEx+00002061
+[ 21] 0x00007f5a94bb6f22      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01318690 PyEval_EvalCode+00000050
+[ 22] 0x00007f5a94bb777c      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01320828 PyImport_ExecCodeModuleEx+00000140
+[ 23] 0x00007f5a94c1aef6      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01728246
+[ 24] 0x00007f5a94c1b609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 25] 0x00007f5a94c147c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 26] 0x00007f5a94be885f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 27] 0x00007f5a94b8b0a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 28] 0x00007f5a94b3ea8b      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+00825995 PyObject_CallFunction+00000187
+[ 29] 0x00007f5a94b95ca2      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01182882 PyImport_Import+00000274
+[ 30] 0x00007f5a9505b02f /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00319535
+[ 31] 0x00007f5a950549fc /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00293372
+[ 32] 0x00007f5a95071b34 /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00412468
+[ 33] 0x00007f5bbe5bcd66 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01830246
+[ 34] 0x00007f5bbe5bd4ef /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832175
+[ 35] 0x00007f5bbe5bd78a /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832842
+[ 36] 0x00007f5bbe56ca09 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01501705
+[ 37] 0x00007f5bbe6721e7 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+02572775
+[ 38] 0x00007f5bcec886b7 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00693943
+[ 39] 0x00007f5bcec8de4e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00716366 mdFindImport+00000270
+[ 40] 0x00007f5bcf093c8f /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01772687
+[ 41] 0x00007f5bcf0ad98d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01878413
+[ 42] 0x00007f5bcf0bba1d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01935901
+[ 43] 0x00007f5bcf0b1a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 44] 0x00007f5bcf0b1be3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895395
+[ 45] 0x00007f5bcf0c733f /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01983295
+[ 46] 0x00007f5bcf0c86c8 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01988296
+[ 47] 0x00007f5bcf0c8d94 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01990036
+[ 48] 0x00007f5bcf0c7577 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01983863
+[ 49] 0x00007f5bcf0b1a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 50] 0x00007f5bcf0c4284 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01970820
+[ 51] 0x00007f5bcf0e7676 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+02115190 _Z11mps_M_to_IRIcEP9term_nodePbPP13variable_nodePmPS6_S6_PP9M_token_TIT_ES6_PPP9_constantPP15_M_parse_tree_TIS9_EP10_M_to_IR_TIS9_EPKS9_SP_PKNSt13make_unsignedIS9_E4typeEmN16fn_is_function_TIS9_E4typeEPvSY_N15fn_find_class_TIS9_E4typeEN16fn_is_variable_TIS9_E4typeESY_ib+00000230
+[ 52] 0x00007f5bcdf0034e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04100942
+[ 53] 0x00007f5bcdf01ac1 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04106945
+[ 54] 0x00007f5bceca6a16 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00817686 _ZN8Mlm_file7load_mfEv+00000134
+[ 55] 0x00007f5bcec5afaa /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00507818 _ZN13Mlm_MATLAB_fn8try_loadEv+00000042
+[ 56] 0x00007f5bceca5857 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00813143 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00000103
+[ 57] 0x00007f5bceca5fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 58] 0x00007f5bcdf15d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 59] 0x00007f5bcdec5432 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03859506
+[ 60] 0x00007f5bcdec76d8 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03868376
+[ 61] 0x00007f5bcdecd597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 62] 0x00007f5bcdec8cff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 63] 0x00007f5bcdec9cb5 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03878069
+[ 64] 0x00007f5bcdebc897 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03823767
+[ 65] 0x00007f5bcdebeb99 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03832729
+[ 66] 0x00007f5bcdebb38d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03818381
+[ 67] 0x00007f5bcdebbbe6 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03820518
+[ 68] 0x00007f5bcdeb7c85 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03804293
+[ 69] 0x00007f5bcec67305 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00557829
+[ 70] 0x00007f5bcec4e744 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00456516 _ZN13Mfh_MATLAB_fn11dispatch_fhEiPP11mxArray_tagiS2_+00000244
+[ 71] 0x00007f5bcdf15d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 72] 0x00007f5bcde964b3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03667123
+[ 73] 0x00007f5bcdec66ee /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03864302
+[ 74] 0x00007f5bcdecd597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 75] 0x00007f5bcdec8cff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 76] 0x00007f5bcdec9934 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03877172
+[ 77] 0x00007f5bcdf3f2ce /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04358862
+[ 78] 0x00007f5bceca5c39 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00814137 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00001097
+[ 79] 0x00007f5bceca5fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 80] 0x00007f5bcdf15d20 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04189472
+[ 81] 0x00007f5bcde964b3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03667123
+[ 82] 0x00007f5bcdec66ee /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03864302
+[ 83] 0x00007f5bcdecd597 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03892631
+[ 84] 0x00007f5bcdec8cff /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03874047
+[ 85] 0x00007f5bcdec9934 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03877172
+[ 86] 0x00007f5bcdf3f2ce /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04358862
+[ 87] 0x00007f5bceca5c39 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00814137 _ZN8Mfh_file16dispatch_fh_implEMS_FviPP11mxArray_tagiS2_EiS2_iS2_+00001097
+[ 88] 0x00007f5bceca5fb0 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00815024 _ZN8Mfh_file11dispatch_fhEiPP11mxArray_tagiS2_+00000032
+[ 89] 0x00007f5bcdefe495 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+04093077
+[ 90] 0x00007f5bcdebefb9 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03833785
+[ 91] 0x00007f5bcdebb3f5 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03818485
+[ 92] 0x00007f5bcdebbad3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_interpreter.so+03820243
+[ 93] 0x00007f5bcfbb1b6c /home/yisha/Software/Matlab/bin/glnxa64/libmwbridge.so+00228204
+[ 94] 0x00007f5bcfbb2751 /home/yisha/Software/Matlab/bin/glnxa64/libmwbridge.so+00231249 _Z8mnParserv+00000737
+[ 95] 0x00007f5bdb2ba3af /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00799663 _ZN11mcrInstance30mnParser_on_interpreter_threadEv+00000031
+[ 96] 0x00007f5bdb29a133 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00667955
+[ 97] 0x00007f5bdb29bfd9 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00675801 _ZN5boost6detail11task_objectIvNS_3_bi6bind_tIvPFvRKNS_8functionIFvvEEEENS2_5list1INS2_5valueIS6_EEEEEEE6do_runEv+00000025
+[ 98] 0x00007f5bdb29c9a7 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcr.so+00678311 _ZN5boost6detail9task_baseIvE3runEv+00000071
+[ 99] 0x1_DeepKCF, 1_matrix: 1/12
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+1_DeepKCF, 1_matrix: 4/12
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 31)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',31,0)">line 31</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                rmpath(genpath('./'))
+
+} 
+1_DeepKCF, 1_matrix: 1/12
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 31)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',31,0)">line 31</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/home/yisha/Software/Matlab/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                rmpath(genpath('./'))
+
+} 
+ pydata = py.dict(pyargs('path','Benchmark/Matrix/img/','nz',4, 'ext', 'jpg', ...
+     'startFrame',1, 'endFrame', 100, ...
+     'len', 100, 'annoBegin',1,...
+     'init_rect', [255 135 61 71], 'name', 'shaking_1'));
+res_path = 'tmp'
+
+res_path =
+
+tmp
+
+bSaveImage=0
+
+bSaveImage =
+
+     0
+
+py_out=py.DeepKCF_OTB.DeepKCF(pydata, res_path, bSaveImage)
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Oct  4 10:31:44 2017
+------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding      : Disabled
+  Crash Mode          : continue (default)
+  Current Graphics Driver: Unknown hardware 
+  Current Visual      : 0x21 (class 4, depth 24)
+  Default Encoding    : UTF-8
+  GNU C Library       : 2.19 stable
+  Host Name           : yisha-H170-D3HP
+  MATLAB Architecture : glnxa64
+  MATLAB Root         : /home/yisha/Software/Matlab
+  MATLAB Version      : 8.5.0.197613 (R2015a)
+  OpenGL              : hardware
+  Operating System    : Linux 4.4.0-81-generic #104~14.04.1-Ubuntu SMP Wed Jun 14 12:45:52 UTC 2017 x86_64
+  Processor ID        : x86 Family 6 Model 94 Stepping 3, GenuineIntel
+  Virtual Machine     : Java 1.7.0_60-b19 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  Window System       : The X.Org Foundation (11501000), display :0
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Register State (from fault):
+  RAX = 0000000000000008  RBX = 00007f8eb9adcd58
+  RCX = 0000000000000008  RDX = 000000000000ffff
+  RSP = 00007f9027ffa3b8  RBP = 0000ff1f3691a318
+  RSI = 00007f8eb97f2cb0  RDI = 0000ff1f3691a310
+
+   R8 = 0000000000000000   R9 = 0000000000000010
+  R10 = 00007f9041225cc0  R11 = 0000000000000005
+  R12 = 00007f9027ffa4a0  R13 = 0000000000000010
+  R14 = 0000000000000057  R15 = 0000000000000016
+
+  RIP = 00007f90412dfadc  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00007f90412dfadc                    /lib/x86_64-linux-gnu/libc.so.6+01325788
+[  1] 0x00007f8eb96bc09e    /usr/local/lib/x86_64-linux-gnu/libQt5Core.so.5+02592926 _ZN9QMetaType22registerNormalizedTypeERK10QByteArrayPFvPvEPFS3_PKvES5_PFS3_S3_S7_Ei6QFlagsINS_8TypeFlagEEPK11QMetaObject+00000190
+[  2] 0x00007f8eb9ba47b7     /usr/local/lib/x86_64-linux-gnu/libQt5Gui.so.5+00767927
+[  3] 0x00007f9043d392da                        /lib64/ld-linux-x86-64.so.2+00066266
+[  4] 0x00007f9043d393c3                        /lib64/ld-linux-x86-64.so.2+00066499
+[  5] 0x00007f9043d3de00                        /lib64/ld-linux-x86-64.so.2+00085504
+[  6] 0x00007f9043d39194                        /lib64/ld-linux-x86-64.so.2+00065940
+[  7] 0x00007f9043d3d54b                        /lib64/ld-linux-x86-64.so.2+00083275
+[  8] 0x00007f90404ea02b                   /lib/x86_64-linux-gnu/libdl.so.2+00004139
+[  9] 0x00007f9043d39194                        /lib64/ld-linux-x86-64.so.2+00065940
+[ 10] 0x00007f90404ea62d                   /lib/x86_64-linux-gnu/libdl.so.2+00005677
+[ 11] 0x00007f90404ea0c1                   /lib/x86_64-linux-gnu/libdl.so.2+00004289 dlopen+00000049
+[ 12] 0x00007f8ef8672dde      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01379806 _PyImport_GetDynLoadFunc+00000286
+[ 13] 0x00007f8ef864739e      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01201054 _PyImport_LoadDynamicModule+00000110
+[ 14] 0x00007f8ef86c8609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 15] 0x00007f8ef86c17c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 16] 0x00007f8ef869585f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 17] 0x00007f8ef86380a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 18] 0x00007f8ef86cb5f7      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01742327 PyEval_CallObjectWithKeywords+00000071
+[ 19] 0x00007f8ef865f6d3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01300179 PyEval_EvalFrameEx+00010003
+[ 20] 0x00007f8ef8663c3d      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01317949 PyEval_EvalCodeEx+00002061
+[ 21] 0x00007f8ef8663f22      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01318690 PyEval_EvalCode+00000050
+[ 22] 0x00007f8ef866477c      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01320828 PyImport_ExecCodeModuleEx+00000140
+[ 23] 0x00007f8ef86c7ef6      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01728246
+[ 24] 0x00007f8ef86c8609      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01730057
+[ 25] 0x00007f8ef86c17c3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01701827 PyImport_ImportModuleLevel+00000451
+[ 26] 0x00007f8ef869585f      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01521759
+[ 27] 0x00007f8ef86380a3      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01138851 PyObject_Call+00000067
+[ 28] 0x00007f8ef85eba8b      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+00825995 PyObject_CallFunction+00000187
+[ 29] 0x00007f8ef8642ca2      /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0+01182882 PyImport_Import+00000274
+[ 30] 0x00007f8ef8b0802f /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00319535
+[ 31] 0x00007f8ef8b019fc /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00293372
+[ 32] 0x00007f8ef8b1eb34 /home/yisha/Software/Matlab/bin/glnxa64/libmwpycli.so+00412468
+[ 33] 0x00007f9025abdd66 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01830246
+[ 34] 0x00007f9025abe4ef /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832175
+[ 35] 0x00007f9025abe78a /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01832842
+[ 36] 0x00007f9025a6da09 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+01501705
+[ 37] 0x00007f9025b731e7 /home/yisha/Software/Matlab/bin/glnxa64/libmwmcos_impl.so+02572775
+[ 38] 0x00007f90360d86b7 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00693943
+[ 39] 0x00007f90360dde4e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_dispatcher.so+00716366 mdFindImport+00000270
+[ 40] 0x00007f90364e3c8f /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01772687
+[ 41] 0x00007f90364fd98d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01878413
+[ 42] 0x00007f903650ba1d /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01935901
+[ 43] 0x00007f9036501a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 44] 0x00007f9036501be3 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895395
+[ 45] 0x00007f9036501a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 46] 0x00007f90365091bc /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01925564
+[ 47] 0x00007f903651854e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01987918
+[ 48] 0x00007f903651ab73 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01997683
+[ 49] 0x00007f9036501a9e /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01895070
+[ 50] 0x00007f9036514284 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01970820
+[ 51] 0x00007f9036515755 /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+01976149
+[ 52] 0x00007f903653790b /home/yisha/Software/Matlab/bin/glnxa64/libmwm_parser.so+02115851 _Z43mps_file_statement_to_IR_with_visible_namesIcEP9term_nodePP13variable_nodePP15_M_parse_tree_TIT_EP10_M_to_IR_TIS6_EP1_DeepKCF, 1_matrix: 1/12
+error
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+1_DeepKCF, 1_matrix: 4/12
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 45)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',45,0)">line 45</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                rmpath(genpath('./'))
+} 
+clear
+clc
+test_DeepKCF
+ok
+1_DeepKCF, 1_matrix: 1/12
+error
+1_DeepKCF, 1_matrix: 2/12
+error
+1_DeepKCF, 1_matrix: 3/12
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 31)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',31,0)">line 31</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('genpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m', 54)" style="font-weight:bold">genpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',54,0)">line 54</a>)
+      p = [p genpath(fullfile(d,dirname))]; % recursive calling of this function.
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                rmpath(genpath('./'))
+} 
+opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/genpath.m',31,0)
+main_running
+1_DeepKCF, 1_matrix: 1/12
+error
+{Undefined function or variable 'sss'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                sss
+} 
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+error
+{Undefined function or variable 'sss'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                sss
+} 
+subS
+
+subS = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          path: 'Benchmark/Matrix/img/'
+            nz: 4
+           ext: 'jpg'
+    startFrame: 1
+      endFrame: 100
+           len: 100
+     annoBegin: 1
+     init_rect: [327 39 38 42]
+      s_frames: {100×1 cell}
+          name: 'matrix_1'
+     shiftType: 'left'
+
+rp
+
+rp =
+
+    './tmp/SRE/matrix_DeepKCF_1/'
+
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+ok
+psr: 6.53
+psr: 6.49
+psr: 6.9
+psr: 6.14
+psr: 7.04
+psr: 6.31
+psr: 7.01
+psr: 7.55
+psr: 7.4
+psr: 5.99
+psr: 6.05
+psr: 7.97
+psr: 6.92
+psr: 6.83
+psr: 6.12
+psr: 6.47
+psr: 7.16
+psr: 7.17
+psr: 6.1
+psr: 6.54
+psr: 7.13
+psr: 6.91
+psr: 6.05
+psr: 6.23
+psr: 6.51
+psr: 6.22
+psr: 5.96
+psr: 5.65
+psr: 6.06
+psr: 6.42
+psr: 6.17
+psr: 6.82
+psr: 6.21
+psr: 6.81
+psr: 6.23
+psr: 6.24
+psr: 6.38
+psr: 5.39
+psr: 7.0
+psr: 6.33
+psr: 7.77
+psr: 6.34
+psr: 5.66
+psr: 5.95
+psr: 5.88
+psr: 6.38
+psr: 6.1
+psr: 5.94
+psr: 6.15
+psr: 6.45
+psr: 6.11
+psr: 5.91
+psr: 7.17
+psr: 6.55
+psr: 6.51
+psr: 6.34
+psr: 6.55
+psr: 6.36
+psr: 5.89
+psr: 7.19
+psr: 6.32
+psr: 6.75
+psr: 6.2
+psr: 6.01
+psr: 6.57
+psr: 6.53
+psr: 5.33
+psr: 6.07
+psr: 6.11
+psr: 6.31
+psr: 6.04
+psr: 6.14
+psr: 5.81
+psr: 5.65
+psr: 6.04
+psr: 6.54
+psr: 5.34
+psr: 6.22
+psr: 6.24
+psr: 5.99
+psr: 5.99
+psr: 5.48
+psr: 6.07
+psr: 6.61
+psr: 6.42
+psr: 5.35
+psr: 5.8
+psr: 5.92
+psr: 5.38
+psr: 5.38
+psr: 5.68
+psr: 6.11
+psr: 5.78
+psr: 6.09
+psr: 5.51
+psr: 5.41
+psr: 5.6
+psr: 4.99
+psr: 6.24
+took 2.74 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 2/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+error
+{Undefined function or variable 'sss'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                sss
+} 
+clear
+clear
+clc;
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+ok
+psr: 6.53
+psr: 6.49
+psr: 6.9
+psr: 6.14
+psr: 7.04
+psr: 6.31
+psr: 7.01
+psr: 7.55
+psr: 7.4
+psr: 5.99
+psr: 6.05
+psr: 7.97
+psr: 6.92
+psr: 6.83
+psr: 6.12
+psr: 6.47
+psr: 7.16
+psr: 7.17
+psr: 6.1
+psr: 6.54
+psr: 7.13
+psr: 6.91
+psr: 6.05
+psr: 6.23
+psr: 6.51
+psr: 6.22
+psr: 5.96
+psr: 5.65
+psr: 6.06
+psr: 6.42
+psr: 6.17
+psr: 6.82
+psr: 6.21
+psr: 6.81
+psr: 6.23
+psr: 6.24
+psr: 6.38
+psr: 5.39
+psr: 7.0
+psr: 6.33
+psr: 7.77
+psr: 6.34
+psr: 5.66
+psr: 5.95
+psr: 5.88
+psr: 6.38
+psr: 6.1
+psr: 5.94
+psr: 6.15
+psr: 6.45
+psr: 6.11
+psr: 5.91
+psr: 7.17
+psr: 6.55
+psr: 6.51
+psr: 6.34
+psr: 6.55
+psr: 6.36
+psr: 5.89
+psr: 7.19
+psr: 6.32
+psr: 6.75
+psr: 6.2
+psr: 6.01
+psr: 6.57
+psr: 6.53
+psr: 5.33
+psr: 6.07
+psr: 6.11
+psr: 6.31
+psr: 6.04
+psr: 6.14
+psr: 5.81
+psr: 5.65
+psr: 6.04
+psr: 6.54
+psr: 5.34
+psr: 6.22
+psr: 6.24
+psr: 5.99
+psr: 5.99
+psr: 5.48
+psr: 6.07
+psr: 6.61
+psr: 6.42
+psr: 5.35
+psr: 5.8
+psr: 5.92
+psr: 5.38
+psr: 5.38
+psr: 5.68
+psr: 6.11
+psr: 5.78
+psr: 6.09
+psr: 5.51
+psr: 5.41
+psr: 5.6
+psr: 4.99
+psr: 6.24
+took 2.04 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 2/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+error
+1_DeepKCF, 1_matrix: 3/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/rmpath.m', 66)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/rmpath.m',66,0)">line 66</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 160)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',160,0)">line 160</a>)
+                rmpath(genpath('./'))
+} 
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.53
+psr: 6.49
+psr: 6.9
+psr: 6.14
+psr: 7.04
+psr: 6.31
+psr: 7.01
+psr: 7.55
+psr: 7.4
+psr: 5.99
+psr: 6.05
+psr: 7.97
+psr: 6.92
+psr: 6.83
+psr: 6.12
+psr: 6.47
+psr: 7.16
+psr: 7.17
+psr: 6.1
+psr: 6.54
+psr: 7.13
+psr: 6.91
+psr: 6.05
+psr: 6.23
+psr: 6.51
+psr: 6.22
+psr: 5.96
+psr: 5.65
+psr: 6.06
+psr: 6.42
+psr: 6.17
+psr: 6.82
+psr: 6.21
+psr: 6.81
+psr: 6.23
+psr: 6.24
+psr: 6.38
+psr: 5.39
+psr: 7.0
+psr: 6.33
+psr: 7.77
+psr: 6.34
+psr: 5.66
+psr: 5.95
+psr: 5.88
+psr: 6.38
+psr: 6.1
+psr: 5.94
+psr: 6.15
+psr: 6.45
+psr: 6.11
+psr: 5.91
+psr: 7.17
+psr: 6.55
+psr: 6.51
+psr: 6.34
+psr: 6.55
+psr: 6.36
+psr: 5.89
+psr: 7.19
+psr: 6.32
+psr: 6.75
+psr: 6.2
+psr: 6.01
+psr: 6.57
+psr: 6.53
+psr: 5.33
+psr: 6.07
+psr: 6.11
+psr: 6.31
+psr: 6.04
+psr: 6.14
+psr: 5.81
+psr: 5.65
+psr: 6.04
+psr: 6.54
+psr: 5.34
+psr: 6.22
+psr: 6.24
+psr: 5.99
+psr: 5.99
+psr: 5.48
+psr: 6.07
+psr: 6.61
+psr: 6.42
+psr: 5.35
+psr: 5.8
+psr: 5.92
+psr: 5.38
+psr: 5.38
+psr: 5.68
+psr: 6.11
+psr: 5.78
+psr: 6.09
+psr: 5.51
+psr: 5.41
+psr: 5.6
+psr: 4.99
+psr: 6.24
+took 1.89 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 2/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+
+ans =
+
+    '/home/maxtom/codespace'
+
+error
+1_DeepKCF, 1_matrix: 3/12
+
+funcName =
+
+    'res=run_DeepKCF(subS, rp, bSaveImage);'
+
+
+ans =
+
+    '/home'
+
+error
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2017a/toolbox/matlab/general/rmpath.m', 66)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2017a/toolbox/matlab/general/rmpath.m',66,0)">line 66</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 161)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',161,0)">line 161</a>)
+                rmpath(genpath('./'))
+} 
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.53
+psr: 6.49
+psr: 6.9
+psr: 6.14
+psr: 7.04
+psr: 6.31
+psr: 7.01
+psr: 7.55
+psr: 7.4
+psr: 5.99
+psr: 6.05
+psr: 7.97
+psr: 6.92
+psr: 6.83
+psr: 6.12
+psr: 6.47
+psr: 7.16
+psr: 7.17
+psr: 6.1
+psr: 6.54
+psr: 7.13
+psr: 6.91
+psr: 6.05
+psr: 6.23
+psr: 6.51
+psr: 6.22
+psr: 5.96
+psr: 5.65
+psr: 6.06
+psr: 6.42
+psr: 6.17
+psr: 6.82
+psr: 6.21
+psr: 6.81
+psr: 6.23
+psr: 6.24
+psr: 6.38
+psr: 5.39
+psr: 7.0
+psr: 6.33
+psr: 7.77
+psr: 6.34
+psr: 5.66
+psr: 5.95
+psr: 5.88
+psr: 6.38
+psr: 6.1
+psr: 5.94
+psr: 6.15
+psr: 6.45
+psr: 6.11
+psr: 5.91
+psr: 7.17
+psr: 6.55
+psr: 6.51
+psr: 6.34
+psr: 6.55
+psr: 6.36
+psr: 5.89
+psr: 7.19
+psr: 6.32
+psr: 6.75
+psr: 6.2
+psr: 6.01
+psr: 6.57
+psr: 6.53
+psr: 5.33
+psr: 6.07
+psr: 6.11
+psr: 6.31
+psr: 6.04
+psr: 6.14
+psr: 5.81
+psr: 5.65
+psr: 6.04
+psr: 6.54
+psr: 5.34
+psr: 6.22
+psr: 6.24
+psr: 5.99
+psr: 5.99
+psr: 5.48
+psr: 6.07
+psr: 6.61
+psr: 6.42
+psr: 5.35
+psr: 5.8
+psr: 5.92
+psr: 5.38
+psr: 5.38
+psr: 5.68
+psr: 6.11
+psr: 5.78
+psr: 6.09
+psr: 5.51
+psr: 5.41
+psr: 5.6
+psr: 4.99
+psr: 6.24
+took 1.94 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 2/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.95
+psr: 7.26
+psr: 7.19
+psr: 6.31
+psr: 5.84
+psr: 7.04
+psr: 7.22
+psr: 7.06
+psr: 7.07
+psr: 6.89
+psr: 7.4
+psr: 7.49
+psr: 6.45
+psr: 6.33
+psr: 6.02
+psr: 6.21
+psr: 7.86
+psr: 7.37
+psr: 5.89
+psr: 6.86
+psr: 7.44
+psr: 7.16
+psr: 5.66
+psr: 6.48
+psr: 7.42
+psr: 7.79
+psr: 6.25
+psr: 6.45
+psr: 6.74
+psr: 6.75
+psr: 6.83
+psr: 6.05
+psr: 7.04
+psr: 7.14
+psr: 6.76
+psr: 6.54
+psr: 6.32
+psr: 6.43
+psr: 6.44
+psr: 6.23
+psr: 6.09
+psr: 6.2
+psr: 6.02
+psr: 5.73
+psr: 6.79
+psr: 6.83
+psr: 6.28
+psr: 6.09
+psr: 6.85
+psr: 6.83
+psr: 6.39
+psr: 6.32
+psr: 6.25
+psr: 6.17
+psr: 6.56
+psr: 7.0
+psr: 6.68
+psr: 6.13
+psr: 6.0
+psr: 6.73
+psr: 7.32
+psr: 6.12
+psr: 5.97
+psr: 5.93
+psr: 6.47
+psr: 6.44
+psr: 6.7
+psr: 6.49
+psr: 6.84
+psr: 6.08
+psr: 6.49
+psr: 5.72
+psr: 6.16
+psr: 6.5
+psr: 5.99
+psr: 6.14
+psr: 5.64
+psr: 6.33
+psr: 6.28
+psr: 6.11
+psr: 5.74
+psr: 5.95
+psr: 5.99
+psr: 5.97
+psr: 6.16
+psr: 5.73
+psr: 5.85
+psr: 5.73
+psr: 5.99
+psr: 5.24
+psr: 5.64
+psr: 5.55
+psr: 5.5
+psr: 4.63
+psr: 5.97
+psr: 6.49
+psr: 5.26
+psr: 5.04
+psr: 6.07
+took 1.89 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 3/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.06
+psr: 6.75
+psr: 7.01
+psr: 6.11
+psr: 5.67
+psr: 7.26
+psr: 6.9
+psr: 6.91
+psr: 6.87
+psr: 6.65
+psr: 8.01
+psr: 7.35
+psr: 6.86
+psr: 6.82
+psr: 6.41
+psr: 8.18
+psr: 6.39
+psr: 6.74
+psr: 7.28
+psr: 6.97
+psr: 6.58
+psr: 6.37
+psr: 6.04
+psr: 7.64
+psr: 6.56
+psr: 7.33
+psr: 7.13
+psr: 6.65
+psr: 6.31
+psr: 6.51
+psr: 6.1
+psr: 6.93
+psr: 6.08
+psr: 6.82
+psr: 6.25
+psr: 6.1
+psr: 6.06
+psr: 6.36
+psr: 6.76
+psr: 6.54
+psr: 6.99
+psr: 6.17
+psr: 6.11
+psr: 6.34
+psr: 5.83
+psr: 7.08
+psr: 6.3
+psr: 6.03
+psr: 6.75
+psr: 6.26
+psr: 6.32
+psr: 6.16
+psr: 7.1
+psr: 6.0
+psr: 6.25
+psr: 6.1
+psr: 6.54
+psr: 6.31
+psr: 5.68
+psr: 6.22
+psr: 6.13
+psr: 6.43
+psr: 6.15
+psr: 6.71
+psr: 6.89
+psr: 6.52
+psr: 5.45
+psr: 5.62
+psr: 6.07
+psr: 6.38
+psr: 6.05
+psr: 5.93
+psr: 5.76
+psr: 5.9
+psr: 6.27
+psr: 6.71
+psr: 5.35
+psr: 5.95
+psr: 6.57
+psr: 5.88
+psr: 6.18
+psr: 5.53
+psr: 6.39
+psr: 6.39
+psr: 6.3
+psr: 5.85
+psr: 5.55
+psr: 5.74
+psr: 6.35
+psr: 4.9
+psr: 5.73
+psr: 4.66
+psr: 5.81
+psr: 4.5
+psr: 5.47
+psr: 5.82
+psr: 3.57
+psr: 3.1
+psr: 5.97
+took 1.92 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 4/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.06
+psr: 6.5
+psr: 7.19
+psr: 5.95
+psr: 5.59
+psr: 7.0
+psr: 6.75
+psr: 6.88
+psr: 6.79
+psr: 5.67
+psr: 7.0
+psr: 7.11
+psr: 5.72
+psr: 6.18
+psr: 6.42
+psr: 6.37
+psr: 6.07
+psr: 6.91
+psr: 7.05
+psr: 7.99
+psr: 6.62
+psr: 6.01
+psr: 6.32
+psr: 6.33
+psr: 6.75
+psr: 7.0
+psr: 7.12
+psr: 6.6
+psr: 7.49
+psr: 6.8
+psr: 6.63
+psr: 7.11
+psr: 6.73
+psr: 6.7
+psr: 6.07
+psr: 6.43
+psr: 5.82
+psr: 6.26
+psr: 5.95
+psr: 7.14
+psr: 6.26
+psr: 5.84
+psr: 6.03
+psr: 6.47
+psr: 5.99
+psr: 6.39
+psr: 5.78
+psr: 6.13
+psr: 6.41
+psr: 6.5
+psr: 7.14
+psr: 6.56
+psr: 6.18
+psr: 6.24
+psr: 7.01
+psr: 6.79
+psr: 6.48
+psr: 7.01
+psr: 6.81
+psr: 6.12
+psr: 7.12
+psr: 6.26
+psr: 6.29
+psr: 6.29
+psr: 7.09
+psr: 6.83
+psr: 6.68
+psr: 5.9
+psr: 6.03
+psr: 6.01
+psr: 6.74
+psr: 7.31
+psr: 6.13
+psr: 5.53
+psr: 6.07
+psr: 5.89
+psr: 5.98
+psr: 5.67
+psr: 6.68
+psr: 6.34
+psr: 5.96
+psr: 6.01
+psr: 6.08
+psr: 5.92
+psr: 6.49
+psr: 5.56
+psr: 6.24
+psr: 5.96
+psr: 6.36
+psr: 5.5
+psr: 6.43
+psr: 6.27
+psr: 5.9
+psr: 6.23
+psr: 5.7
+psr: 5.08
+psr: 5.91
+psr: 4.28
+psr: 6.4
+took 1.94 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 5/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.22
+psr: 6.39
+psr: 6.39
+psr: 6.1
+psr: 6.36
+psr: 6.04
+psr: 6.87
+psr: 6.68
+psr: 6.02
+psr: 6.12
+psr: 7.06
+psr: 7.06
+psr: 6.6
+psr: 5.65
+psr: 5.2
+psr: 6.25
+psr: 6.46
+psr: 6.14
+psr: 6.17
+psr: 6.66
+psr: 7.17
+psr: 6.78
+psr: 6.16
+psr: 6.54
+psr: 6.15
+psr: 6.28
+psr: 6.36
+psr: 5.88
+psr: 6.14
+psr: 6.57
+psr: 6.81
+psr: 6.36
+psr: 6.02
+psr: 6.35
+psr: 5.97
+psr: 6.06
+psr: 6.23
+psr: 6.72
+psr: 5.67
+psr: 6.09
+psr: 6.42
+psr: 6.77
+psr: 6.02
+psr: 5.82
+psr: 6.47
+psr: 6.25
+psr: 6.1
+psr: 6.0
+psr: 6.61
+psr: 6.26
+psr: 6.17
+psr: 6.01
+psr: 6.5
+psr: 6.01
+psr: 6.25
+psr: 6.41
+psr: 6.38
+psr: 6.29
+psr: 5.8
+psr: 6.29
+psr: 6.75
+psr: 6.07
+psr: 5.79
+psr: 5.67
+psr: 5.69
+psr: 5.53
+psr: 7.03
+psr: 6.36
+psr: 6.35
+psr: 5.85
+psr: 6.64
+psr: 5.44
+psr: 6.15
+psr: 5.98
+psr: 6.22
+psr: 6.22
+psr: 6.68
+psr: 5.86
+psr: 6.35
+psr: 6.81
+psr: 5.76
+psr: 5.59
+psr: 6.65
+psr: 5.78
+psr: 5.73
+psr: 6.34
+psr: 6.33
+psr: 6.05
+psr: 5.4
+psr: 5.17
+psr: 5.34
+psr: 6.14
+psr: 5.67
+psr: 5.97
+psr: 5.75
+psr: 5.26
+psr: 5.06
+psr: 4.84
+psr: 5.96
+took 1.83 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 6/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.21
+psr: 6.75
+psr: 5.46
+psr: 6.54
+psr: 6.61
+psr: 6.35
+psr: 6.16
+psr: 6.52
+psr: 5.98
+psr: 6.14
+psr: 7.61
+psr: 6.84
+psr: 6.83
+psr: 7.55
+psr: 6.7
+psr: 7.56
+psr: 6.66
+psr: 6.49
+psr: 6.48
+psr: 6.28
+psr: 6.52
+psr: 6.12
+psr: 6.64
+psr: 6.01
+psr: 7.12
+psr: 6.26
+psr: 6.36
+psr: 7.02
+psr: 6.98
+psr: 7.54
+psr: 6.38
+psr: 6.73
+psr: 6.65
+psr: 6.69
+psr: 5.88
+psr: 7.25
+psr: 6.38
+psr: 5.98
+psr: 5.95
+psr: 6.51
+psr: 6.5
+psr: 7.02
+psr: 5.84
+psr: 6.18
+psr: 6.14
+psr: 7.04
+psr: 6.68
+psr: 6.64
+psr: 6.95
+psr: 6.44
+psr: 6.1
+psr: 6.12
+psr: 6.48
+psr: 6.5
+psr: 6.19
+psr: 6.03
+psr: 6.23
+psr: 6.11
+psr: 6.28
+psr: 5.96
+psr: 5.85
+psr: 6.11
+psr: 6.25
+psr: 6.68
+psr: 6.71
+psr: 6.55
+psr: 6.18
+psr: 6.36
+psr: 5.68
+psr: 6.35
+psr: 6.08
+psr: 6.51
+psr: 6.18
+psr: 6.07
+psr: 6.1
+psr: 5.75
+psr: 5.98
+psr: 6.74
+psr: 5.51
+psr: 5.97
+psr: 6.33
+psr: 6.6
+psr: 5.75
+psr: 5.82
+psr: 6.12
+psr: 5.82
+psr: 6.33
+psr: 5.81
+psr: 5.84
+psr: 5.32
+psr: 5.71
+psr: 5.91
+psr: 5.42
+psr: 5.1
+psr: 5.59
+psr: 5.51
+psr: 6.29
+psr: 5.32
+psr: 5.85
+took 1.9 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 7/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.47
+psr: 6.05
+psr: 6.85
+psr: 5.75
+psr: 6.27
+psr: 5.78
+psr: 6.24
+psr: 7.82
+psr: 8.02
+psr: 6.81
+psr: 6.42
+psr: 7.4
+psr: 6.47
+psr: 6.51
+psr: 5.75
+psr: 6.07
+psr: 7.29
+psr: 7.34
+psr: 6.15
+psr: 6.77
+psr: 7.02
+psr: 6.87
+psr: 6.21
+psr: 6.51
+psr: 7.08
+psr: 7.35
+psr: 6.59
+psr: 6.41
+psr: 5.95
+psr: 6.84
+psr: 6.05
+psr: 5.81
+psr: 5.74
+psr: 6.84
+psr: 6.47
+psr: 6.75
+psr: 6.13
+psr: 5.66
+psr: 6.3
+psr: 6.25
+psr: 5.93
+psr: 6.73
+psr: 5.72
+psr: 5.53
+psr: 6.5
+psr: 6.33
+psr: 6.84
+psr: 6.43
+psr: 6.23
+psr: 6.06
+psr: 5.95
+psr: 6.6
+psr: 6.85
+psr: 5.88
+psr: 6.7
+psr: 6.76
+psr: 6.75
+psr: 6.06
+psr: 6.14
+psr: 6.82
+psr: 6.4
+psr: 6.54
+psr: 6.69
+psr: 6.4
+psr: 6.22
+psr: 6.76
+psr: 5.43
+psr: 6.59
+psr: 6.63
+psr: 5.81
+psr: 5.79
+psr: 5.77
+psr: 6.29
+psr: 5.55
+psr: 6.45
+psr: 5.77
+psr: 6.56
+psr: 5.43
+psr: 5.76
+psr: 6.16
+psr: 6.14
+psr: 6.87
+psr: 5.46
+psr: 5.4
+psr: 6.24
+psr: 5.67
+psr: 5.27
+psr: 5.56
+psr: 4.25
+psr: 3.65
+psr: 3.93
+psr: 5.07
+psr: 5.1
+psr: 4.67
+psr: 4.82
+psr: 5.37
+psr: 5.48
+psr: 4.33
+psr: 5.46
+took 1.83 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 8/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.44
+psr: 6.17
+psr: 6.94
+psr: 5.84
+psr: 5.66
+psr: 6.66
+psr: 7.34
+psr: 6.61
+psr: 6.98
+psr: 6.36
+psr: 7.23
+psr: 6.95
+psr: 7.24
+psr: 7.18
+psr: 6.04
+psr: 7.99
+psr: 6.11
+psr: 6.67
+psr: 6.73
+psr: 7.41
+psr: 6.62
+psr: 6.27
+psr: 6.04
+psr: 6.23
+psr: 5.67
+psr: 6.56
+psr: 6.53
+psr: 6.68
+psr: 6.47
+psr: 6.28
+psr: 5.99
+psr: 6.44
+psr: 6.61
+psr: 7.12
+psr: 5.89
+psr: 6.61
+psr: 5.95
+psr: 5.99
+psr: 6.15
+psr: 6.74
+psr: 5.94
+psr: 6.16
+psr: 6.66
+psr: 6.09
+psr: 6.37
+psr: 6.23
+psr: 5.68
+psr: 6.0
+psr: 6.03
+psr: 6.71
+psr: 6.6
+psr: 6.52
+psr: 5.84
+psr: 6.25
+psr: 6.9
+psr: 6.89
+psr: 6.6
+psr: 6.98
+psr: 7.16
+psr: 6.11
+psr: 6.12
+psr: 6.47
+psr: 6.92
+psr: 7.01
+psr: 6.29
+psr: 6.45
+psr: 6.34
+psr: 5.84
+psr: 5.72
+psr: 6.58
+psr: 5.99
+psr: 6.24
+psr: 6.5
+psr: 5.29
+psr: 5.75
+psr: 6.14
+psr: 6.9
+psr: 6.06
+psr: 7.08
+psr: 6.3
+psr: 6.21
+psr: 6.73
+psr: 6.06
+psr: 7.03
+psr: 5.91
+psr: 6.81
+psr: 6.66
+psr: 6.08
+psr: 6.84
+psr: 6.16
+psr: 7.25
+psr: 5.94
+psr: 6.72
+psr: 6.48
+psr: 6.43
+psr: 6.45
+psr: 7.42
+psr: 5.58
+psr: 5.31
+took 1.93 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 9/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.84
+psr: 6.49
+psr: 7.86
+psr: 7.89
+psr: 5.9
+psr: 6.55
+psr: 6.96
+psr: 6.54
+psr: 5.88
+psr: 7.69
+psr: 6.81
+psr: 6.79
+psr: 6.51
+psr: 6.4
+psr: 6.64
+psr: 6.5
+psr: 7.74
+psr: 8.11
+psr: 5.72
+psr: 6.99
+psr: 6.61
+psr: 6.72
+psr: 7.88
+psr: 7.02
+psr: 6.18
+psr: 6.06
+psr: 7.4
+psr: 6.57
+psr: 6.64
+psr: 5.6
+psr: 6.43
+psr: 5.97
+psr: 5.78
+psr: 6.85
+psr: 6.18
+psr: 7.17
+psr: 6.93
+psr: 7.06
+psr: 6.48
+psr: 6.08
+psr: 5.68
+psr: 6.62
+psr: 5.67
+psr: 6.63
+psr: 5.93
+psr: 7.83
+psr: 6.48
+psr: 6.77
+psr: 6.73
+psr: 6.36
+psr: 6.25
+psr: 6.51
+psr: 6.66
+psr: 6.22
+psr: 6.55
+psr: 6.61
+psr: 5.74
+psr: 5.89
+psr: 5.69
+psr: 6.89
+psr: 6.63
+psr: 6.38
+psr: 6.76
+psr: 6.54
+psr: 6.29
+psr: 6.14
+psr: 5.88
+psr: 6.65
+psr: 6.06
+psr: 5.86
+psr: 6.24
+psr: 6.16
+psr: 5.96
+psr: 5.65
+psr: 6.25
+psr: 5.92
+psr: 5.96
+psr: 5.94
+psr: 6.54
+psr: 6.01
+psr: 5.5
+psr: 5.92
+psr: 6.83
+psr: 6.41
+psr: 5.53
+psr: 5.77
+psr: 5.95
+psr: 6.35
+psr: 6.14
+psr: 5.56
+psr: 4.19
+psr: 4.1
+psr: 6.31
+psr: 4.89
+psr: 5.26
+psr: 5.83
+psr: 2.82
+psr: 3.0
+psr: 6.26
+took 1.52 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 10/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.32
+psr: 6.45
+psr: 7.52
+psr: 5.95
+psr: 6.18
+psr: 6.97
+psr: 6.48
+psr: 5.64
+psr: 6.68
+psr: 6.81
+psr: 6.82
+psr: 8.01
+psr: 7.55
+psr: 6.94
+psr: 6.72
+psr: 8.25
+psr: 6.63
+psr: 6.75
+psr: 6.39
+psr: 6.42
+psr: 6.67
+psr: 6.03
+psr: 6.3
+psr: 6.28
+psr: 6.19
+psr: 5.61
+psr: 6.99
+psr: 6.9
+psr: 6.85
+psr: 6.05
+psr: 6.59
+psr: 6.68
+psr: 5.91
+psr: 6.64
+psr: 6.12
+psr: 6.16
+psr: 6.36
+psr: 6.21
+psr: 6.27
+psr: 5.53
+psr: 5.55
+psr: 6.95
+psr: 5.7
+psr: 6.74
+psr: 6.07
+psr: 7.08
+psr: 6.19
+psr: 6.23
+psr: 5.95
+psr: 6.61
+psr: 5.87
+psr: 6.34
+psr: 6.47
+psr: 5.92
+psr: 6.2
+psr: 6.07
+psr: 6.14
+psr: 6.3
+psr: 5.93
+psr: 6.38
+psr: 5.53
+psr: 6.89
+psr: 6.42
+psr: 6.58
+psr: 6.5
+psr: 6.8
+psr: 5.15
+psr: 6.33
+psr: 6.4
+psr: 5.94
+psr: 6.31
+psr: 6.01
+psr: 5.69
+psr: 6.02
+psr: 6.32
+psr: 5.98
+psr: 5.85
+psr: 4.86
+psr: 5.72
+psr: 5.16
+psr: 6.12
+psr: 6.84
+psr: 5.99
+psr: 6.13
+psr: 6.21
+psr: 5.47
+psr: 5.45
+psr: 5.97
+psr: 4.33
+psr: 4.12
+psr: 4.77
+psr: 3.95
+psr: 6.62
+psr: 4.67
+psr: 4.79
+psr: 5.62
+psr: 4.63
+psr: 4.09
+psr: 5.98
+took 2.0 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 11/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.08
+psr: 6.88
+psr: 7.16
+psr: 6.23
+psr: 6.37
+psr: 6.86
+psr: 7.25
+psr: 5.59
+psr: 6.85
+psr: 6.51
+psr: 6.22
+psr: 6.8
+psr: 6.78
+psr: 6.84
+psr: 6.4
+psr: 7.25
+psr: 6.12
+psr: 6.42
+psr: 6.48
+psr: 7.1
+psr: 6.07
+psr: 6.54
+psr: 6.37
+psr: 6.24
+psr: 6.22
+psr: 6.37
+psr: 7.32
+psr: 6.58
+psr: 6.26
+psr: 5.98
+psr: 6.39
+psr: 6.84
+psr: 6.33
+psr: 7.2
+psr: 6.16
+psr: 6.66
+psr: 6.1
+psr: 6.15
+psr: 5.88
+psr: 6.9
+psr: 5.57
+psr: 6.63
+psr: 6.89
+psr: 6.12
+psr: 6.77
+psr: 6.66
+psr: 6.58
+psr: 6.37
+psr: 6.51
+psr: 6.89
+psr: 6.51
+psr: 6.36
+psr: 6.83
+psr: 6.48
+psr: 6.51
+psr: 6.42
+psr: 6.5
+psr: 5.92
+psr: 5.97
+psr: 6.35
+psr: 6.4
+psr: 6.65
+psr: 6.29
+psr: 6.55
+psr: 6.24
+psr: 6.61
+psr: 5.38
+psr: 5.99
+psr: 6.02
+psr: 6.18
+psr: 6.16
+psr: 6.06
+psr: 6.04
+psr: 5.83
+psr: 6.19
+psr: 6.93
+psr: 5.62
+psr: 5.83
+psr: 6.3
+psr: 5.7
+psr: 6.09
+psr: 5.55
+psr: 6.16
+psr: 6.05
+psr: 6.15
+psr: 5.67
+psr: 5.59
+psr: 5.59
+psr: 5.6
+psr: 5.62
+psr: 5.63
+psr: 6.39
+psr: 6.14
+psr: 6.31
+psr: 5.58
+psr: 5.35
+psr: 6.5
+psr: 4.75
+psr: 6.69
+took 1.85 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 12/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.58
+psr: 6.39
+psr: 5.67
+psr: 6.73
+psr: 5.97
+psr: 6.55
+psr: 7.31
+psr: 5.58
+psr: 6.62
+psr: 5.92
+psr: 7.09
+psr: 7.42
+psr: 6.61
+psr: 6.78
+psr: 6.7
+psr: 7.65
+psr: 6.84
+psr: 6.05
+psr: 6.54
+psr: 6.5
+psr: 6.15
+psr: 6.18
+psr: 6.33
+psr: 5.6
+psr: 6.26
+psr: 6.24
+psr: 6.45
+psr: 6.83
+psr: 6.94
+psr: 7.36
+psr: 6.42
+psr: 7.08
+psr: 6.46
+psr: 7.34
+psr: 5.86
+psr: 7.53
+psr: 5.76
+psr: 6.11
+psr: 5.59
+psr: 6.14
+psr: 7.06
+psr: 6.82
+psr: 5.38
+psr: 6.0
+psr: 6.86
+psr: 6.48
+psr: 6.66
+psr: 6.56
+psr: 7.25
+psr: 6.38
+psr: 6.42
+psr: 7.09
+psr: 6.04
+psr: 6.46
+psr: 5.53
+psr: 6.12
+psr: 6.73
+psr: 6.25
+psr: 6.39
+psr: 6.31
+psr: 5.99
+psr: 6.65
+psr: 6.57
+psr: 6.37
+psr: 6.29
+psr: 6.37
+psr: 6.22
+psr: 5.91
+psr: 5.57
+psr: 6.76
+psr: 5.63
+psr: 6.58
+psr: 6.46
+psr: 6.27
+psr: 6.22
+psr: 6.34
+psr: 6.08
+psr: 6.59
+psr: 5.8
+psr: 6.08
+psr: 5.81
+psr: 6.14
+psr: 6.67
+psr: 5.92
+psr: 6.09
+psr: 6.04
+psr: 6.87
+psr: 6.2
+psr: 6.34
+psr: 5.75
+psr: 6.07
+psr: 5.98
+psr: 6.04
+psr: 6.41
+psr: 6.0
+psr: 5.64
+psr: 5.51
+psr: 5.0
+psr: 6.2
+took 3.06 seconds to to complete tracking
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'matrix_DeepKCF.mat' because './results/results_SRE_CVPR13' does not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_running', '/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m', 182)" style="font-weight:bold">main_running</a> (<a href="matlab: opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',182,0)">line 182</a>)
+        save(save_path, 'results');
+} 
+matlab.internal.language.introspective.errorDocCallback('save')
+opentoline('/home/maxtom/codespace/Tracking/OTB_Tracker/main_running.m',182,0)
+main_running
+1_DeepKCF, 1_matrix: 1/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.53
+psr: 6.49
+psr: 6.9
+psr: 6.14
+psr: 7.04
+psr: 6.31
+psr: 7.01
+psr: 7.55
+psr: 7.4
+psr: 5.99
+psr: 6.05
+psr: 7.97
+psr: 6.92
+psr: 6.83
+psr: 6.12
+psr: 6.47
+psr: 7.16
+psr: 7.17
+psr: 6.1
+psr: 6.54
+psr: 7.13
+psr: 6.91
+psr: 6.05
+psr: 6.23
+psr: 6.51
+psr: 6.22
+psr: 5.96
+psr: 5.65
+psr: 6.06
+psr: 6.42
+psr: 6.17
+psr: 6.82
+psr: 6.21
+psr: 6.81
+psr: 6.23
+psr: 6.24
+psr: 6.38
+psr: 5.39
+psr: 7.0
+psr: 6.33
+psr: 7.77
+psr: 6.34
+psr: 5.66
+psr: 5.95
+psr: 5.88
+psr: 6.38
+psr: 6.1
+psr: 5.94
+psr: 6.15
+psr: 6.45
+psr: 6.11
+psr: 5.91
+psr: 7.17
+psr: 6.55
+psr: 6.51
+psr: 6.34
+psr: 6.55
+psr: 6.36
+psr: 5.89
+psr: 7.19
+psr: 6.32
+psr: 6.75
+psr: 6.2
+psr: 6.01
+psr: 6.57
+psr: 6.53
+psr: 5.33
+psr: 6.07
+psr: 6.11
+psr: 6.31
+psr: 6.04
+psr: 6.14
+psr: 5.81
+psr: 5.65
+psr: 6.04
+psr: 6.54
+psr: 5.34
+psr: 6.22
+psr: 6.24
+psr: 5.99
+psr: 5.99
+psr: 5.48
+psr: 6.07
+psr: 6.61
+psr: 6.42
+psr: 5.35
+psr: 5.8
+psr: 5.92
+psr: 5.38
+psr: 5.38
+psr: 5.68
+psr: 6.11
+psr: 5.78
+psr: 6.09
+psr: 5.51
+psr: 5.41
+psr: 5.6
+psr: 4.99
+psr: 6.24
+took 2.04 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 2/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.95
+psr: 7.26
+psr: 7.19
+psr: 6.31
+psr: 5.84
+psr: 7.04
+psr: 7.22
+psr: 7.06
+psr: 7.07
+psr: 6.89
+psr: 7.4
+psr: 7.49
+psr: 6.45
+psr: 6.33
+psr: 6.02
+psr: 6.21
+psr: 7.86
+psr: 7.37
+psr: 5.89
+psr: 6.86
+psr: 7.44
+psr: 7.16
+psr: 5.66
+psr: 6.48
+psr: 7.42
+psr: 7.79
+psr: 6.25
+psr: 6.45
+psr: 6.74
+psr: 6.75
+psr: 6.83
+psr: 6.05
+psr: 7.04
+psr: 7.14
+psr: 6.76
+psr: 6.54
+psr: 6.32
+psr: 6.43
+psr: 6.44
+psr: 6.23
+psr: 6.09
+psr: 6.2
+psr: 6.02
+psr: 5.73
+psr: 6.79
+psr: 6.83
+psr: 6.28
+psr: 6.09
+psr: 6.85
+psr: 6.83
+psr: 6.39
+psr: 6.32
+psr: 6.25
+psr: 6.17
+psr: 6.56
+psr: 7.0
+psr: 6.68
+psr: 6.13
+psr: 6.0
+psr: 6.73
+psr: 7.32
+psr: 6.12
+psr: 5.97
+psr: 5.93
+psr: 6.47
+psr: 6.44
+psr: 6.7
+psr: 6.49
+psr: 6.84
+psr: 6.08
+psr: 6.49
+psr: 5.72
+psr: 6.16
+psr: 6.5
+psr: 5.99
+psr: 6.14
+psr: 5.64
+psr: 6.33
+psr: 6.28
+psr: 6.11
+psr: 5.74
+psr: 5.95
+psr: 5.99
+psr: 5.97
+psr: 6.16
+psr: 5.73
+psr: 5.85
+psr: 5.73
+psr: 5.99
+psr: 5.24
+psr: 5.64
+psr: 5.55
+psr: 5.5
+psr: 4.63
+psr: 5.97
+psr: 6.49
+psr: 5.26
+psr: 5.04
+psr: 6.07
+took 2.01 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 3/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.06
+psr: 6.75
+psr: 7.01
+psr: 6.11
+psr: 5.67
+psr: 7.26
+psr: 6.9
+psr: 6.91
+psr: 6.87
+psr: 6.65
+psr: 8.01
+psr: 7.35
+psr: 6.86
+psr: 6.82
+psr: 6.41
+psr: 8.18
+psr: 6.39
+psr: 6.74
+psr: 7.28
+psr: 6.97
+psr: 6.58
+psr: 6.37
+psr: 6.04
+psr: 7.64
+psr: 6.56
+psr: 7.33
+psr: 7.13
+psr: 6.65
+psr: 6.31
+psr: 6.51
+psr: 6.1
+psr: 6.93
+psr: 6.08
+psr: 6.82
+psr: 6.25
+psr: 6.1
+psr: 6.06
+psr: 6.36
+psr: 6.76
+psr: 6.54
+psr: 6.99
+psr: 6.17
+psr: 6.11
+psr: 6.34
+psr: 5.83
+psr: 7.08
+psr: 6.3
+psr: 6.03
+psr: 6.75
+psr: 6.26
+psr: 6.32
+psr: 6.16
+psr: 7.1
+psr: 6.0
+psr: 6.25
+psr: 6.1
+psr: 6.54
+psr: 6.31
+psr: 5.68
+psr: 6.22
+psr: 6.13
+psr: 6.43
+psr: 6.15
+psr: 6.71
+psr: 6.89
+psr: 6.52
+psr: 5.45
+psr: 5.62
+psr: 6.07
+psr: 6.38
+psr: 6.05
+psr: 5.93
+psr: 5.76
+psr: 5.9
+psr: 6.27
+psr: 6.71
+psr: 5.35
+psr: 5.95
+psr: 6.57
+psr: 5.88
+psr: 6.18
+psr: 5.53
+psr: 6.39
+psr: 6.39
+psr: 6.3
+psr: 5.85
+psr: 5.55
+psr: 5.74
+psr: 6.35
+psr: 4.9
+psr: 5.73
+psr: 4.66
+psr: 5.81
+psr: 4.5
+psr: 5.47
+psr: 5.82
+psr: 3.57
+psr: 3.1
+psr: 5.97
+took 2.05 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 4/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.06
+psr: 6.5
+psr: 7.19
+psr: 5.95
+psr: 5.59
+psr: 7.0
+psr: 6.75
+psr: 6.88
+psr: 6.79
+psr: 5.67
+psr: 7.0
+psr: 7.11
+psr: 5.72
+psr: 6.18
+psr: 6.42
+psr: 6.37
+psr: 6.07
+psr: 6.91
+psr: 7.05
+psr: 7.99
+psr: 6.62
+psr: 6.01
+psr: 6.32
+psr: 6.33
+psr: 6.75
+psr: 7.0
+psr: 7.12
+psr: 6.6
+psr: 7.49
+psr: 6.8
+psr: 6.63
+psr: 7.11
+psr: 6.73
+psr: 6.7
+psr: 6.07
+psr: 6.43
+psr: 5.82
+psr: 6.26
+psr: 5.95
+psr: 7.14
+psr: 6.26
+psr: 5.84
+psr: 6.03
+psr: 6.47
+psr: 5.99
+psr: 6.39
+psr: 5.78
+psr: 6.13
+psr: 6.41
+psr: 6.5
+psr: 7.14
+psr: 6.56
+psr: 6.18
+psr: 6.24
+psr: 7.01
+psr: 6.79
+psr: 6.48
+psr: 7.01
+psr: 6.81
+psr: 6.12
+psr: 7.12
+psr: 6.26
+psr: 6.29
+psr: 6.29
+psr: 7.09
+psr: 6.83
+psr: 6.68
+psr: 5.9
+psr: 6.03
+psr: 6.01
+psr: 6.74
+psr: 7.31
+psr: 6.13
+psr: 5.53
+psr: 6.07
+psr: 5.89
+psr: 5.98
+psr: 5.67
+psr: 6.68
+psr: 6.34
+psr: 5.96
+psr: 6.01
+psr: 6.08
+psr: 5.92
+psr: 6.49
+psr: 5.56
+psr: 6.24
+psr: 5.96
+psr: 6.36
+psr: 5.5
+psr: 6.43
+psr: 6.27
+psr: 5.9
+psr: 6.23
+psr: 5.7
+psr: 5.08
+psr: 5.91
+psr: 4.28
+psr: 6.4
+took 2.03 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 5/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.22
+psr: 6.39
+psr: 6.39
+psr: 6.1
+psr: 6.36
+psr: 6.04
+psr: 6.87
+psr: 6.68
+psr: 6.02
+psr: 6.12
+psr: 7.06
+psr: 7.06
+psr: 6.6
+psr: 5.65
+psr: 5.2
+psr: 6.25
+psr: 6.46
+psr: 6.14
+psr: 6.17
+psr: 6.66
+psr: 7.17
+psr: 6.78
+psr: 6.16
+psr: 6.54
+psr: 6.15
+psr: 6.28
+psr: 6.36
+psr: 5.88
+psr: 6.14
+psr: 6.57
+psr: 6.81
+psr: 6.36
+psr: 6.02
+psr: 6.35
+psr: 5.97
+psr: 6.06
+psr: 6.23
+psr: 6.72
+psr: 5.67
+psr: 6.09
+psr: 6.42
+psr: 6.77
+psr: 6.02
+psr: 5.82
+psr: 6.47
+psr: 6.25
+psr: 6.1
+psr: 6.0
+psr: 6.61
+psr: 6.26
+psr: 6.17
+psr: 6.01
+psr: 6.5
+psr: 6.01
+psr: 6.25
+psr: 6.41
+psr: 6.38
+psr: 6.29
+psr: 5.8
+psr: 6.29
+psr: 6.75
+psr: 6.07
+psr: 5.79
+psr: 5.67
+psr: 5.69
+psr: 5.53
+psr: 7.03
+psr: 6.36
+psr: 6.35
+psr: 5.85
+psr: 6.64
+psr: 5.44
+psr: 6.15
+psr: 5.98
+psr: 6.22
+psr: 6.22
+psr: 6.68
+psr: 5.86
+psr: 6.35
+psr: 6.81
+psr: 5.76
+psr: 5.59
+psr: 6.65
+psr: 5.78
+psr: 5.73
+psr: 6.34
+psr: 6.33
+psr: 6.05
+psr: 5.4
+psr: 5.17
+psr: 5.34
+psr: 6.14
+psr: 5.67
+psr: 5.97
+psr: 5.75
+psr: 5.26
+psr: 5.06
+psr: 4.84
+psr: 5.96
+took 2.04 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 6/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.21
+psr: 6.75
+psr: 5.46
+psr: 6.54
+psr: 6.61
+psr: 6.35
+psr: 6.16
+psr: 6.52
+psr: 5.98
+psr: 6.14
+psr: 7.61
+psr: 6.84
+psr: 6.83
+psr: 7.55
+psr: 6.7
+psr: 7.56
+psr: 6.66
+psr: 6.49
+psr: 6.48
+psr: 6.28
+psr: 6.52
+psr: 6.12
+psr: 6.64
+psr: 6.01
+psr: 7.12
+psr: 6.26
+psr: 6.36
+psr: 7.02
+psr: 6.98
+psr: 7.54
+psr: 6.38
+psr: 6.73
+psr: 6.65
+psr: 6.69
+psr: 5.88
+psr: 7.25
+psr: 6.38
+psr: 5.98
+psr: 5.95
+psr: 6.51
+psr: 6.5
+psr: 7.02
+psr: 5.84
+psr: 6.18
+psr: 6.14
+psr: 7.04
+psr: 6.68
+psr: 6.64
+psr: 6.95
+psr: 6.44
+psr: 6.1
+psr: 6.12
+psr: 6.48
+psr: 6.5
+psr: 6.19
+psr: 6.03
+psr: 6.23
+psr: 6.11
+psr: 6.28
+psr: 5.96
+psr: 5.85
+psr: 6.11
+psr: 6.25
+psr: 6.68
+psr: 6.71
+psr: 6.55
+psr: 6.18
+psr: 6.36
+psr: 5.68
+psr: 6.35
+psr: 6.08
+psr: 6.51
+psr: 6.18
+psr: 6.07
+psr: 6.1
+psr: 5.75
+psr: 5.98
+psr: 6.74
+psr: 5.51
+psr: 5.97
+psr: 6.33
+psr: 6.6
+psr: 5.75
+psr: 5.82
+psr: 6.12
+psr: 5.82
+psr: 6.33
+psr: 5.81
+psr: 5.84
+psr: 5.32
+psr: 5.71
+psr: 5.91
+psr: 5.42
+psr: 5.1
+psr: 5.59
+psr: 5.51
+psr: 6.29
+psr: 5.32
+psr: 5.85
+took 1.97 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 7/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.47
+psr: 6.05
+psr: 6.85
+psr: 5.75
+psr: 6.27
+psr: 5.78
+psr: 6.24
+psr: 7.82
+psr: 8.02
+psr: 6.81
+psr: 6.42
+psr: 7.4
+psr: 6.47
+psr: 6.51
+psr: 5.75
+psr: 6.07
+psr: 7.29
+psr: 7.34
+psr: 6.15
+psr: 6.77
+psr: 7.02
+psr: 6.87
+psr: 6.21
+psr: 6.51
+psr: 7.08
+psr: 7.35
+psr: 6.59
+psr: 6.41
+psr: 5.95
+psr: 6.84
+psr: 6.05
+psr: 5.81
+psr: 5.74
+psr: 6.84
+psr: 6.47
+psr: 6.75
+psr: 6.13
+psr: 5.66
+psr: 6.3
+psr: 6.25
+psr: 5.93
+psr: 6.73
+psr: 5.72
+psr: 5.53
+psr: 6.5
+psr: 6.33
+psr: 6.84
+psr: 6.43
+psr: 6.23
+psr: 6.06
+psr: 5.95
+psr: 6.6
+psr: 6.85
+psr: 5.88
+psr: 6.7
+psr: 6.76
+psr: 6.75
+psr: 6.06
+psr: 6.14
+psr: 6.82
+psr: 6.4
+psr: 6.54
+psr: 6.69
+psr: 6.4
+psr: 6.22
+psr: 6.76
+psr: 5.43
+psr: 6.59
+psr: 6.63
+psr: 5.81
+psr: 5.79
+psr: 5.77
+psr: 6.29
+psr: 5.55
+psr: 6.45
+psr: 5.77
+psr: 6.56
+psr: 5.43
+psr: 5.76
+psr: 6.16
+psr: 6.14
+psr: 6.87
+psr: 5.46
+psr: 5.4
+psr: 6.24
+psr: 5.67
+psr: 5.27
+psr: 5.56
+psr: 4.25
+psr: 3.65
+psr: 3.93
+psr: 5.07
+psr: 5.1
+psr: 4.67
+psr: 4.82
+psr: 5.37
+psr: 5.48
+psr: 4.33
+psr: 5.46
+took 2.02 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 8/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.44
+psr: 6.17
+psr: 6.94
+psr: 5.84
+psr: 5.66
+psr: 6.66
+psr: 7.34
+psr: 6.61
+psr: 6.98
+psr: 6.36
+psr: 7.23
+psr: 6.95
+psr: 7.24
+psr: 7.18
+psr: 6.04
+psr: 7.99
+psr: 6.11
+psr: 6.67
+psr: 6.73
+psr: 7.41
+psr: 6.62
+psr: 6.27
+psr: 6.04
+psr: 6.23
+psr: 5.67
+psr: 6.56
+psr: 6.53
+psr: 6.68
+psr: 6.47
+psr: 6.28
+psr: 5.99
+psr: 6.44
+psr: 6.61
+psr: 7.12
+psr: 5.89
+psr: 6.61
+psr: 5.95
+psr: 5.99
+psr: 6.15
+psr: 6.74
+psr: 5.94
+psr: 6.16
+psr: 6.66
+psr: 6.09
+psr: 6.37
+psr: 6.23
+psr: 5.68
+psr: 6.0
+psr: 6.03
+psr: 6.71
+psr: 6.6
+psr: 6.52
+psr: 5.84
+psr: 6.25
+psr: 6.9
+psr: 6.89
+psr: 6.6
+psr: 6.98
+psr: 7.16
+psr: 6.11
+psr: 6.12
+psr: 6.47
+psr: 6.92
+psr: 7.01
+psr: 6.29
+psr: 6.45
+psr: 6.34
+psr: 5.84
+psr: 5.72
+psr: 6.58
+psr: 5.99
+psr: 6.24
+psr: 6.5
+psr: 5.29
+psr: 5.75
+psr: 6.14
+psr: 6.9
+psr: 6.06
+psr: 7.08
+psr: 6.3
+psr: 6.21
+psr: 6.73
+psr: 6.06
+psr: 7.03
+psr: 5.91
+psr: 6.81
+psr: 6.66
+psr: 6.08
+psr: 6.84
+psr: 6.16
+psr: 7.25
+psr: 5.94
+psr: 6.72
+psr: 6.48
+psr: 6.43
+psr: 6.45
+psr: 7.42
+psr: 5.58
+psr: 5.31
+took 2.01 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 9/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.84
+psr: 6.49
+psr: 7.86
+psr: 7.89
+psr: 5.9
+psr: 6.55
+psr: 6.96
+psr: 6.54
+psr: 5.88
+psr: 7.69
+psr: 6.81
+psr: 6.79
+psr: 6.51
+psr: 6.4
+psr: 6.64
+psr: 6.5
+psr: 7.74
+psr: 8.11
+psr: 5.72
+psr: 6.99
+psr: 6.61
+psr: 6.72
+psr: 7.88
+psr: 7.02
+psr: 6.18
+psr: 6.06
+psr: 7.4
+psr: 6.57
+psr: 6.64
+psr: 5.6
+psr: 6.43
+psr: 5.97
+psr: 5.78
+psr: 6.85
+psr: 6.18
+psr: 7.17
+psr: 6.93
+psr: 7.06
+psr: 6.48
+psr: 6.08
+psr: 5.68
+psr: 6.62
+psr: 5.67
+psr: 6.63
+psr: 5.93
+psr: 7.83
+psr: 6.48
+psr: 6.77
+psr: 6.73
+psr: 6.36
+psr: 6.25
+psr: 6.51
+psr: 6.66
+psr: 6.22
+psr: 6.55
+psr: 6.61
+psr: 5.74
+psr: 5.89
+psr: 5.69
+psr: 6.89
+psr: 6.63
+psr: 6.38
+psr: 6.76
+psr: 6.54
+psr: 6.29
+psr: 6.14
+psr: 5.88
+psr: 6.65
+psr: 6.06
+psr: 5.86
+psr: 6.24
+psr: 6.16
+psr: 5.96
+psr: 5.65
+psr: 6.25
+psr: 5.92
+psr: 5.96
+psr: 5.94
+psr: 6.54
+psr: 6.01
+psr: 5.5
+psr: 5.92
+psr: 6.83
+psr: 6.41
+psr: 5.53
+psr: 5.77
+psr: 5.95
+psr: 6.35
+psr: 6.14
+psr: 5.56
+psr: 4.19
+psr: 4.1
+psr: 6.31
+psr: 4.89
+psr: 5.26
+psr: 5.83
+psr: 2.82
+psr: 3.0
+psr: 6.26
+took 1.68 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 10/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 7.32
+psr: 6.45
+psr: 7.52
+psr: 5.95
+psr: 6.18
+psr: 6.97
+psr: 6.48
+psr: 5.64
+psr: 6.68
+psr: 6.81
+psr: 6.82
+psr: 8.01
+psr: 7.55
+psr: 6.94
+psr: 6.72
+psr: 8.25
+psr: 6.63
+psr: 6.75
+psr: 6.39
+psr: 6.42
+psr: 6.67
+psr: 6.03
+psr: 6.3
+psr: 6.28
+psr: 6.19
+psr: 5.61
+psr: 6.99
+psr: 6.9
+psr: 6.85
+psr: 6.05
+psr: 6.59
+psr: 6.68
+psr: 5.91
+psr: 6.64
+psr: 6.12
+psr: 6.16
+psr: 6.36
+psr: 6.21
+psr: 6.27
+psr: 5.53
+psr: 5.55
+psr: 6.95
+psr: 5.7
+psr: 6.74
+psr: 6.07
+psr: 7.08
+psr: 6.19
+psr: 6.23
+psr: 5.95
+psr: 6.61
+psr: 5.87
+psr: 6.34
+psr: 6.47
+psr: 5.92
+psr: 6.2
+psr: 6.07
+psr: 6.14
+psr: 6.3
+psr: 5.93
+psr: 6.38
+psr: 5.53
+psr: 6.89
+psr: 6.42
+psr: 6.58
+psr: 6.5
+psr: 6.8
+psr: 5.15
+psr: 6.33
+psr: 6.4
+psr: 5.94
+psr: 6.31
+psr: 6.01
+psr: 5.69
+psr: 6.02
+psr: 6.32
+psr: 5.98
+psr: 5.85
+psr: 4.86
+psr: 5.72
+psr: 5.16
+psr: 6.12
+psr: 6.84
+psr: 5.99
+psr: 6.13
+psr: 6.21
+psr: 5.47
+psr: 5.45
+psr: 5.97
+psr: 4.33
+psr: 4.12
+psr: 4.77
+psr: 3.95
+psr: 6.62
+psr: 4.67
+psr: 4.79
+psr: 5.62
+psr: 4.63
+psr: 4.09
+psr: 5.98
+took 2.09 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 11/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.08
+psr: 6.88
+psr: 7.16
+psr: 6.23
+psr: 6.37
+psr: 6.86
+psr: 7.25
+psr: 5.59
+psr: 6.85
+psr: 6.51
+psr: 6.22
+psr: 6.8
+psr: 6.78
+psr: 6.84
+psr: 6.4
+psr: 7.25
+psr: 6.12
+psr: 6.42
+psr: 6.48
+psr: 7.1
+psr: 6.07
+psr: 6.54
+psr: 6.37
+psr: 6.24
+psr: 6.22
+psr: 6.37
+psr: 7.32
+psr: 6.58
+psr: 6.26
+psr: 5.98
+psr: 6.39
+psr: 6.84
+psr: 6.33
+psr: 7.2
+psr: 6.16
+psr: 6.66
+psr: 6.1
+psr: 6.15
+psr: 5.88
+psr: 6.9
+psr: 5.57
+psr: 6.63
+psr: 6.89
+psr: 6.12
+psr: 6.77
+psr: 6.66
+psr: 6.58
+psr: 6.37
+psr: 6.51
+psr: 6.89
+psr: 6.51
+psr: 6.36
+psr: 6.83
+psr: 6.48
+psr: 6.51
+psr: 6.42
+psr: 6.5
+psr: 5.92
+psr: 5.97
+psr: 6.35
+psr: 6.4
+psr: 6.65
+psr: 6.29
+psr: 6.55
+psr: 6.24
+psr: 6.61
+psr: 5.38
+psr: 5.99
+psr: 6.02
+psr: 6.18
+psr: 6.16
+psr: 6.06
+psr: 6.04
+psr: 5.83
+psr: 6.19
+psr: 6.93
+psr: 5.62
+psr: 5.83
+psr: 6.3
+psr: 5.7
+psr: 6.09
+psr: 5.55
+psr: 6.16
+psr: 6.05
+psr: 6.15
+psr: 5.67
+psr: 5.59
+psr: 5.59
+psr: 5.6
+psr: 5.62
+psr: 5.63
+psr: 6.39
+psr: 6.14
+psr: 6.31
+psr: 5.58
+psr: 5.35
+psr: 6.5
+psr: 4.75
+psr: 6.69
+took 1.97 seconds to to complete tracking
+1_DeepKCF, 1_matrix: 12/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 6.58
+psr: 6.39
+psr: 5.67
+psr: 6.73
+psr: 5.97
+psr: 6.55
+psr: 7.31
+psr: 5.58
+psr: 6.62
+psr: 5.92
+psr: 7.09
+psr: 7.42
+psr: 6.61
+psr: 6.78
+psr: 6.7
+psr: 7.65
+psr: 6.84
+psr: 6.05
+psr: 6.54
+psr: 6.5
+psr: 6.15
+psr: 6.18
+psr: 6.33
+psr: 5.6
+psr: 6.26
+psr: 6.24
+psr: 6.45
+psr: 6.83
+psr: 6.94
+psr: 7.36
+psr: 6.42
+psr: 7.08
+psr: 6.46
+psr: 7.34
+psr: 5.86
+psr: 7.53
+psr: 5.76
+psr: 6.11
+psr: 5.59
+psr: 6.14
+psr: 7.06
+psr: 6.82
+psr: 5.38
+psr: 6.0
+psr: 6.86
+psr: 6.48
+psr: 6.66
+psr: 6.56
+psr: 7.25
+psr: 6.38
+psr: 6.42
+psr: 7.09
+psr: 6.04
+psr: 6.46
+psr: 5.53
+psr: 6.12
+psr: 6.73
+psr: 6.25
+psr: 6.39
+psr: 6.31
+psr: 5.99
+psr: 6.65
+psr: 6.57
+psr: 6.37
+psr: 6.29
+psr: 6.37
+psr: 6.22
+psr: 5.91
+psr: 5.57
+psr: 6.76
+psr: 5.63
+psr: 6.58
+psr: 6.46
+psr: 6.27
+psr: 6.22
+psr: 6.34
+psr: 6.08
+psr: 6.59
+psr: 5.8
+psr: 6.08
+psr: 5.81
+psr: 6.14
+psr: 6.67
+psr: 5.92
+psr: 6.09
+psr: 6.04
+psr: 6.87
+psr: 6.2
+psr: 6.34
+psr: 5.75
+psr: 6.07
+psr: 5.98
+psr: 6.04
+psr: 6.41
+psr: 6.0
+psr: 5.64
+psr: 5.51
+psr: 5.0
+psr: 6.2
+took 3.09 seconds to to complete tracking
+Empty all
+matrix TLD
+Empty all
+matrix DFT
+1_DeepKCF, 2_ironman: 1/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.38
+psr: 6.4
+psr: 5.7
+psr: 6.46
+psr: 5.62
+psr: 5.13
+psr: 6.82
+psr: 6.1
+psr: 5.69
+psr: 5.97
+psr: 6.2
+psr: 5.42
+psr: 5.62
+psr: 5.7
+psr: 5.47
+psr: 6.26
+psr: 5.55
+psr: 6.31
+psr: 6.32
+psr: 5.69
+psr: 5.21
+psr: 5.24
+psr: 5.99
+psr: 7.03
+psr: 6.49
+psr: 5.85
+psr: 5.69
+psr: 5.48
+psr: 4.98
+psr: 5.67
+psr: 5.73
+psr: 6.06
+psr: 5.63
+psr: 3.33
+psr: 4.34
+psr: 4.9
+psr: 5.53
+psr: 5.87
+psr: 5.25
+psr: 6.67
+psr: 5.91
+psr: 4.83
+psr: 4.15
+psr: 5.64
+psr: 6.09
+psr: 5.43
+psr: 6.06
+psr: 5.43
+psr: 6.39
+psr: 5.05
+psr: 5.69
+psr: 5.31
+psr: 5.89
+psr: 5.41
+psr: 6.32
+psr: 5.68
+psr: 5.26
+psr: 4.71
+psr: 5.32
+psr: 5.47
+psr: 5.06
+psr: 6.26
+psr: 5.12
+psr: 4.7
+psr: 4.06
+psr: 5.38
+psr: 5.47
+psr: 4.94
+psr: 5.13
+psr: 5.0
+psr: 5.61
+psr: 4.89
+psr: 4.35
+psr: 5.12
+psr: 5.33
+psr: 5.13
+psr: 5.13
+psr: 6.22
+psr: 5.58
+psr: 5.89
+psr: 5.68
+psr: 4.57
+psr: 5.13
+psr: 4.45
+psr: 5.34
+psr: 5.44
+psr: 5.83
+psr: 5.5
+psr: 5.28
+psr: 5.65
+psr: 5.18
+psr: 5.17
+psr: 5.14
+psr: 5.17
+psr: 4.66
+psr: 5.55
+psr: 5.12
+psr: 4.21
+psr: 3.81
+took 2.22 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 2/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.43
+psr: 5.44
+psr: 5.28
+psr: 5.6
+psr: 5.69
+psr: 4.55
+psr: 5.59
+psr: 5.32
+psr: 5.54
+psr: 4.85
+psr: 7.03
+psr: 5.91
+psr: 5.92
+psr: 5.08
+psr: 5.72
+psr: 5.21
+psr: 5.52
+psr: 6.03
+psr: 5.29
+psr: 4.99
+psr: 5.09
+psr: 5.08
+psr: 5.13
+psr: 6.08
+psr: 6.25
+psr: 5.32
+psr: 5.15
+psr: 4.85
+psr: 4.75
+psr: 5.75
+psr: 4.84
+psr: 4.81
+psr: 5.57
+psr: 6.63
+psr: 7.2
+psr: 5.04
+psr: 4.52
+psr: 5.52
+psr: 6.33
+psr: 5.3
+psr: 5.37
+psr: 4.18
+psr: 3.79
+psr: 4.25
+psr: 5.6
+psr: 4.4
+psr: 3.78
+psr: 4.58
+psr: 5.56
+psr: 4.43
+psr: 3.71
+psr: 3.95
+psr: 4.19
+psr: 4.59
+psr: 4.17
+psr: 4.92
+psr: 5.47
+psr: 4.38
+psr: 3.88
+psr: 4.72
+psr: 4.98
+psr: 4.44
+psr: 4.74
+psr: 4.76
+psr: 5.88
+psr: 4.74
+psr: 5.26
+psr: 4.84
+psr: 5.47
+psr: 4.52
+psr: 4.38
+psr: 5.24
+psr: 5.21
+psr: 4.17
+psr: 4.5
+psr: 4.21
+psr: 3.7
+psr: 5.58
+psr: 5.01
+psr: 3.92
+psr: 4.52
+psr: 4.62
+psr: 4.24
+psr: 4.5
+psr: 4.21
+psr: 4.48
+psr: 3.47
+psr: 4.23
+psr: 3.85
+psr: 4.21
+psr: 4.33
+psr: 4.07
+psr: 4.45
+psr: 4.83
+psr: 4.59
+psr: 4.48
+psr: 4.38
+psr: 4.54
+psr: 3.47
+took 2.22 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 3/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.4
+psr: 6.16
+psr: 5.5
+psr: 6.0
+psr: 5.9
+psr: 4.78
+psr: 6.97
+psr: 6.02
+psr: 5.14
+psr: 5.78
+psr: 5.93
+psr: 5.22
+psr: 5.57
+psr: 4.55
+psr: 6.45
+psr: 5.36
+psr: 5.77
+psr: 5.94
+psr: 5.58
+psr: 5.65
+psr: 5.56
+psr: 4.9
+psr: 5.64
+psr: 6.2
+psr: 6.82
+psr: 6.06
+psr: 5.85
+psr: 4.77
+psr: 4.79
+psr: 5.71
+psr: 5.13
+psr: 4.97
+psr: 5.59
+psr: 4.97
+psr: 5.47
+psr: 5.93
+psr: 5.69
+psr: 5.82
+psr: 5.33
+psr: 5.81
+psr: 4.85
+psr: 5.64
+psr: 5.77
+psr: 5.69
+psr: 5.27
+psr: 6.48
+psr: 6.42
+psr: 5.81
+psr: 6.0
+psr: 5.68
+psr: 6.13
+psr: 6.16
+psr: 6.45
+psr: 6.51
+psr: 6.72
+psr: 6.33
+psr: 6.24
+psr: 6.42
+psr: 6.05
+psr: 6.38
+psr: 6.73
+psr: 6.13
+psr: 6.56
+psr: 6.27
+psr: 6.21
+psr: 5.88
+psr: 5.79
+psr: 5.64
+psr: 6.07
+psr: 6.59
+psr: 5.91
+psr: 5.96
+psr: 5.42
+psr: 5.92
+psr: 5.61
+psr: 5.83
+psr: 6.07
+psr: 6.35
+psr: 6.2
+psr: 5.66
+psr: 5.87
+psr: 5.63
+psr: 5.65
+psr: 5.95
+psr: 6.17
+psr: 5.73
+psr: 5.75
+psr: 6.55
+psr: 6.66
+psr: 6.04
+psr: 6.32
+psr: 6.1
+psr: 5.2
+psr: 5.55
+psr: 5.97
+psr: 4.67
+psr: 4.84
+psr: 4.85
+psr: 4.48
+took 2.31 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 4/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.26
+psr: 6.2
+psr: 5.46
+psr: 6.26
+psr: 5.86
+psr: 4.96
+psr: 6.98
+psr: 6.56
+psr: 5.12
+psr: 6.35
+psr: 5.98
+psr: 5.11
+psr: 5.65
+psr: 5.5
+psr: 5.7
+psr: 6.15
+psr: 5.32
+psr: 6.29
+psr: 5.86
+psr: 5.73
+psr: 4.97
+psr: 5.08
+psr: 5.52
+psr: 5.19
+psr: 6.17
+psr: 6.12
+psr: 5.28
+psr: 4.97
+psr: 4.66
+psr: 5.65
+psr: 5.61
+psr: 6.03
+psr: 5.1
+psr: 6.48
+psr: 6.73
+psr: 5.25
+psr: 6.25
+psr: 5.5
+psr: 7.18
+psr: 5.49
+psr: 5.21
+psr: 4.67
+psr: 3.66
+psr: 5.41
+psr: 5.59
+psr: 4.45
+psr: 5.7
+psr: 5.51
+psr: 5.74
+psr: 4.9
+psr: 5.74
+psr: 6.33
+psr: 5.78
+psr: 6.22
+psr: 6.04
+psr: 4.87
+psr: 5.38
+psr: 4.66
+psr: 5.02
+psr: 5.71
+psr: 5.23
+psr: 6.31
+psr: 5.3
+psr: 4.38
+psr: 4.3
+psr: 5.18
+psr: 4.61
+psr: 4.77
+psr: 4.87
+psr: 4.74
+psr: 5.24
+psr: 4.86
+psr: 4.97
+psr: 4.92
+psr: 5.05
+psr: 5.06
+psr: 5.16
+psr: 6.19
+psr: 5.51
+psr: 6.04
+psr: 5.04
+psr: 4.37
+psr: 4.57
+psr: 4.61
+psr: 5.07
+psr: 5.17
+psr: 5.26
+psr: 5.19
+psr: 4.68
+psr: 4.8
+psr: 5.01
+psr: 4.42
+psr: 4.57
+psr: 3.5
+psr: 3.99
+psr: 4.96
+psr: 5.07
+psr: 4.03
+psr: 3.21
+took 2.27 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 5/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.0
+psr: 6.66
+psr: 5.83
+psr: 5.85
+psr: 6.01
+psr: 5.37
+psr: 7.18
+psr: 6.98
+psr: 5.12
+psr: 5.92
+psr: 6.28
+psr: 5.37
+psr: 5.96
+psr: 5.95
+psr: 5.38
+psr: 6.38
+psr: 5.82
+psr: 6.51
+psr: 6.48
+psr: 5.96
+psr: 5.38
+psr: 5.48
+psr: 6.5
+psr: 6.43
+psr: 6.47
+psr: 6.16
+psr: 5.27
+psr: 5.51
+psr: 5.23
+psr: 6.22
+psr: 6.08
+psr: 5.63
+psr: 5.53
+psr: 5.45
+psr: 7.17
+psr: 5.53
+psr: 5.27
+psr: 5.84
+psr: 7.08
+psr: 5.87
+psr: 5.66
+psr: 4.14
+psr: 3.41
+psr: 5.86
+psr: 6.31
+psr: 5.18
+psr: 5.69
+psr: 5.72
+psr: 6.5
+psr: 5.08
+psr: 5.98
+psr: 5.4
+psr: 5.83
+psr: 5.07
+psr: 6.4
+psr: 5.58
+psr: 5.26
+psr: 4.58
+psr: 5.68
+psr: 5.7
+psr: 5.45
+psr: 6.45
+psr: 5.46
+psr: 4.74
+psr: 4.82
+psr: 5.29
+psr: 5.7
+psr: 5.04
+psr: 5.33
+psr: 5.65
+psr: 5.85
+psr: 5.31
+psr: 4.78
+psr: 5.12
+psr: 4.31
+psr: 4.09
+psr: 4.74
+psr: 5.22
+psr: 5.45
+psr: 6.01
+psr: 5.05
+psr: 4.51
+psr: 4.64
+psr: 4.66
+psr: 5.78
+psr: 4.96
+psr: 4.6
+psr: 5.72
+psr: 4.57
+psr: 4.21
+psr: 4.59
+psr: 4.49
+psr: 4.89
+psr: 3.55
+psr: 3.65
+psr: 5.01
+psr: 4.75
+psr: 4.07
+psr: 3.94
+took 2.75 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 6/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.05
+psr: 5.63
+psr: 5.62
+psr: 6.26
+psr: 6.24
+psr: 4.97
+psr: 7.24
+psr: 6.91
+psr: 5.2
+psr: 5.73
+psr: 6.05
+psr: 5.68
+psr: 5.97
+psr: 5.0
+psr: 6.69
+psr: 5.35
+psr: 5.67
+psr: 5.78
+psr: 5.68
+psr: 5.15
+psr: 5.51
+psr: 5.02
+psr: 6.42
+psr: 6.04
+psr: 6.41
+psr: 6.37
+psr: 5.43
+psr: 5.23
+psr: 4.99
+psr: 5.61
+psr: 6.17
+psr: 5.43
+psr: 5.27
+psr: 3.37
+psr: 4.68
+psr: 5.29
+psr: 5.37
+psr: 6.32
+psr: 4.88
+psr: 5.97
+psr: 6.2
+psr: 4.68
+psr: 3.87
+psr: 4.71
+psr: 5.85
+psr: 4.42
+psr: 4.82
+psr: 4.88
+psr: 5.74
+psr: 4.52
+psr: 3.72
+psr: 3.62
+psr: 4.55
+psr: 4.4
+psr: 4.62
+psr: 4.81
+psr: 5.6
+psr: 4.42
+psr: 4.53
+psr: 5.61
+psr: 5.45
+psr: 5.03
+psr: 4.68
+psr: 5.32
+psr: 5.19
+psr: 4.73
+psr: 4.55
+psr: 4.43
+psr: 4.63
+psr: 5.0
+psr: 4.52
+psr: 4.35
+psr: 5.08
+psr: 4.74
+psr: 4.57
+psr: 4.31
+psr: 4.01
+psr: 5.6
+psr: 5.26
+psr: 3.97
+psr: 4.84
+psr: 5.56
+psr: 4.48
+psr: 4.74
+psr: 4.57
+psr: 4.74
+psr: 4.27
+psr: 4.2
+psr: 4.08
+psr: 5.77
+psr: 4.91
+psr: 4.89
+psr: 5.24
+psr: 4.38
+psr: 4.48
+psr: 4.72
+psr: 4.42
+psr: 3.97
+psr: 3.42
+took 2.76 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 7/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 3.78
+psr: 6.02
+psr: 5.74
+psr: 6.27
+psr: 5.73
+psr: 5.42
+psr: 7.08
+psr: 7.08
+psr: 5.2
+psr: 6.36
+psr: 6.52
+psr: 5.48
+psr: 6.14
+psr: 5.91
+psr: 5.54
+psr: 6.52
+psr: 5.79
+psr: 6.79
+psr: 5.76
+psr: 6.2
+psr: 5.07
+psr: 5.42
+psr: 6.54
+psr: 6.34
+psr: 6.64
+psr: 6.14
+psr: 5.55
+psr: 5.52
+psr: 5.14
+psr: 5.8
+psr: 6.35
+psr: 5.62
+psr: 5.44
+psr: 3.4
+psr: 4.21
+psr: 3.75
+psr: 3.9
+psr: 3.69
+psr: 4.48
+psr: 3.4
+psr: 4.0
+psr: 4.66
+psr: 3.86
+psr: 4.77
+psr: 5.54
+psr: 5.27
+psr: 5.79
+psr: 5.57
+psr: 6.22
+psr: 5.31
+psr: 5.65
+psr: 5.66
+psr: 5.87
+psr: 5.45
+psr: 6.27
+psr: 5.63
+psr: 5.25
+psr: 4.67
+psr: 5.41
+psr: 6.03
+psr: 5.72
+psr: 6.17
+psr: 5.84
+psr: 5.28
+psr: 5.42
+psr: 5.71
+psr: 5.25
+psr: 4.98
+psr: 5.26
+psr: 5.15
+psr: 4.89
+psr: 4.99
+psr: 4.73
+psr: 4.84
+psr: 5.19
+psr: 5.33
+psr: 5.52
+psr: 5.96
+psr: 5.6
+psr: 4.63
+psr: 6.18
+psr: 5.25
+psr: 5.21
+psr: 6.03
+psr: 5.7
+psr: 5.55
+psr: 6.18
+psr: 5.68
+psr: 6.35
+psr: 6.1
+psr: 6.08
+psr: 5.78
+psr: 5.79
+psr: 4.75
+psr: 5.59
+psr: 5.38
+psr: 4.72
+psr: 4.69
+psr: 4.26
+took 2.86 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 8/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 3.97
+psr: 5.6
+psr: 5.77
+psr: 6.1
+psr: 5.95
+psr: 5.14
+psr: 7.0
+psr: 6.67
+psr: 4.9
+psr: 6.44
+psr: 6.17
+psr: 5.31
+psr: 6.15
+psr: 5.32
+psr: 6.42
+psr: 5.53
+psr: 5.37
+psr: 5.8
+psr: 5.17
+psr: 5.29
+psr: 5.46
+psr: 5.17
+psr: 5.76
+psr: 6.31
+psr: 6.56
+psr: 5.44
+psr: 6.23
+psr: 5.36
+psr: 4.63
+psr: 4.98
+psr: 5.26
+psr: 5.37
+psr: 5.69
+psr: 7.07
+psr: 6.87
+psr: 5.57
+psr: 5.33
+psr: 5.58
+psr: 6.99
+psr: 5.91
+psr: 5.8
+psr: 4.28
+psr: 3.78
+psr: 3.86
+psr: 3.8
+psr: 5.15
+psr: 5.96
+psr: 5.31
+psr: 5.3
+psr: 5.63
+psr: 5.91
+psr: 6.36
+psr: 5.39
+psr: 6.13
+psr: 5.72
+psr: 5.5
+psr: 5.08
+psr: 4.97
+psr: 4.78
+psr: 5.59
+psr: 6.38
+psr: 6.1
+psr: 5.45
+psr: 4.46
+psr: 4.77
+psr: 5.31
+psr: 4.81
+psr: 4.34
+psr: 5.35
+psr: 4.96
+psr: 4.64
+psr: 4.77
+psr: 5.1
+psr: 4.28
+psr: 4.65
+psr: 4.68
+psr: 5.08
+psr: 5.86
+psr: 5.06
+psr: 6.57
+psr: 4.91
+psr: 4.72
+psr: 4.57
+psr: 5.28
+psr: 5.25
+psr: 4.79
+psr: 5.93
+psr: 5.28
+psr: 4.5
+psr: 4.89
+psr: 4.53
+psr: 4.17
+psr: 4.44
+psr: 3.59
+psr: 3.96
+psr: 4.81
+psr: 4.69
+psr: 3.96
+psr: 3.26
+took 2.72 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 9/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.79
+psr: 5.04
+psr: 4.59
+psr: 5.19
+psr: 6.44
+psr: 4.46
+psr: 5.3
+psr: 5.36
+psr: 5.94
+psr: 5.15
+psr: 5.89
+psr: 4.52
+psr: 5.6
+psr: 5.04
+psr: 5.03
+psr: 5.49
+psr: 4.98
+psr: 5.44
+psr: 5.48
+psr: 5.32
+psr: 4.53
+psr: 5.07
+psr: 4.8
+psr: 5.19
+psr: 5.8
+psr: 5.89
+psr: 5.69
+psr: 4.43
+psr: 4.34
+psr: 5.97
+psr: 5.37
+psr: 5.77
+psr: 6.03
+psr: 4.3
+psr: 4.5
+psr: 4.83
+psr: 5.49
+psr: 5.04
+psr: 6.36
+psr: 4.69
+psr: 4.34
+psr: 4.01
+psr: 3.93
+psr: 4.23
+psr: 4.42
+psr: 5.99
+psr: 5.04
+psr: 4.33
+psr: 4.74
+psr: 5.28
+psr: 5.44
+psr: 5.83
+psr: 5.65
+psr: 5.36
+psr: 5.93
+psr: 4.65
+psr: 4.14
+psr: 3.99
+psr: 4.16
+psr: 5.66
+psr: 4.68
+psr: 6.02
+psr: 4.2
+psr: 3.87
+psr: 4.41
+psr: 4.47
+psr: 3.67
+psr: 5.01
+psr: 4.82
+psr: 4.64
+psr: 4.08
+psr: 5.39
+psr: 4.38
+psr: 4.57
+psr: 4.74
+psr: 4.22
+psr: 3.76
+psr: 5.21
+psr: 4.81
+psr: 4.19
+psr: 4.42
+psr: 4.26
+psr: 3.73
+psr: 3.59
+psr: 4.29
+psr: 3.93
+psr: 4.13
+psr: 4.27
+psr: 3.89
+psr: 3.88
+psr: 4.94
+psr: 4.28
+psr: 4.09
+psr: 3.1
+psr: 4.33
+psr: 4.32
+psr: 4.54
+psr: 3.34
+psr: 3.64
+took 1.85 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 10/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.46
+psr: 5.36
+psr: 5.01
+psr: 5.13
+psr: 6.45
+psr: 4.83
+psr: 5.25
+psr: 5.99
+psr: 6.02
+psr: 5.01
+psr: 6.22
+psr: 5.5
+psr: 5.52
+psr: 5.26
+psr: 5.28
+psr: 5.43
+psr: 5.02
+psr: 6.11
+psr: 5.36
+psr: 4.42
+psr: 5.97
+psr: 5.65
+psr: 5.18
+psr: 5.73
+psr: 5.72
+psr: 5.66
+psr: 5.05
+psr: 5.42
+psr: 4.67
+psr: 5.76
+psr: 4.78
+psr: 4.84
+psr: 5.08
+psr: 5.35
+psr: 6.9
+psr: 5.21
+psr: 5.1
+psr: 5.38
+psr: 6.39
+psr: 4.7
+psr: 4.62
+psr: 3.96
+psr: 4.13
+psr: 3.88
+psr: 4.62
+psr: 4.24
+psr: 4.47
+psr: 4.77
+psr: 3.99
+psr: 3.41
+psr: 3.67
+psr: 4.47
+psr: 4.88
+psr: 4.79
+psr: 3.57
+psr: 4.8
+psr: 4.23
+psr: 4.1
+psr: 3.56
+psr: 3.37
+psr: 4.17
+psr: 5.09
+psr: 4.73
+psr: 4.81
+psr: 4.17
+psr: 3.73
+psr: 4.2
+psr: 4.72
+psr: 5.64
+psr: 5.47
+psr: 5.5
+psr: 4.99
+psr: 4.66
+psr: 4.9
+psr: 4.97
+psr: 4.49
+psr: 4.56
+psr: 6.28
+psr: 5.27
+psr: 5.87
+psr: 4.67
+psr: 4.03
+psr: 4.72
+psr: 4.47
+psr: 5.28
+psr: 5.21
+psr: 4.07
+psr: 4.88
+psr: 4.96
+psr: 5.0
+psr: 4.96
+psr: 4.27
+psr: 4.39
+psr: 3.38
+psr: 4.08
+psr: 3.3
+psr: 3.9
+psr: 4.56
+psr: 3.74
+took 2.83 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 11/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 4.13
+psr: 6.55
+psr: 5.47
+psr: 6.31
+psr: 6.24
+psr: 4.92
+psr: 7.33
+psr: 6.77
+psr: 5.37
+psr: 6.08
+psr: 6.23
+psr: 4.93
+psr: 5.97
+psr: 5.8
+psr: 5.54
+psr: 6.65
+psr: 6.0
+psr: 6.57
+psr: 6.15
+psr: 6.09
+psr: 5.3
+psr: 5.68
+psr: 6.24
+psr: 6.27
+psr: 6.3
+psr: 6.09
+psr: 5.61
+psr: 5.64
+psr: 5.07
+psr: 5.81
+psr: 5.59
+psr: 5.68
+psr: 5.37
+psr: 5.68
+psr: 7.1
+psr: 5.78
+psr: 5.61
+psr: 6.26
+psr: 6.66
+psr: 5.85
+psr: 5.87
+psr: 4.26
+psr: 3.65
+psr: 4.52
+psr: 6.2
+psr: 4.78
+psr: 5.45
+psr: 5.55
+psr: 6.21
+psr: 5.19
+psr: 6.13
+psr: 5.56
+psr: 6.24
+psr: 5.6
+psr: 6.1
+psr: 5.65
+psr: 5.31
+psr: 4.45
+psr: 5.56
+psr: 5.79
+psr: 5.53
+psr: 5.68
+psr: 5.91
+psr: 4.99
+psr: 5.26
+psr: 5.58
+psr: 5.28
+psr: 4.98
+psr: 5.28
+psr: 5.15
+psr: 4.74
+psr: 4.92
+psr: 4.35
+psr: 5.88
+psr: 4.15
+psr: 3.93
+psr: 4.56
+psr: 4.93
+psr: 5.75
+psr: 5.81
+psr: 4.97
+psr: 4.81
+psr: 4.86
+psr: 5.68
+psr: 5.51
+psr: 5.46
+psr: 6.1
+psr: 5.44
+psr: 5.83
+psr: 5.68
+psr: 5.51
+psr: 5.18
+psr: 5.65
+psr: 4.68
+psr: 4.84
+psr: 4.95
+psr: 4.83
+psr: 4.47
+psr: 3.39
+took 2.85 seconds to to complete tracking
+1_DeepKCF, 2_ironman: 12/12
+
+ans =
+
+    '/home/maxtom/codespace/Tracking/OTB_Tracker'
+
+ok
+psr: 3.76
+psr: 6.66
+psr: 5.82
+psr: 6.06
+psr: 6.14
+psr: 5.44
+psr: 7.1
+psr: 6.92
+psr: 5.18
+psr: 6.09
+psr: 6.41
+psr: 5.54
+psr: 5.98
+psr: 5.34
+psr: 6.18
+psr: 5.79
+psr: 5.87
+psr: 6.49
+psr: 5.82
+psr: 5.85
+psr: 5.62
+psr: 5.66
+psr: 6.53
+psr: 6.43
+psr: 6.34
+psr: 6.23
+psr: 5.23
+psr: 5.05
+psr: 5.47
+psr: 5.78
+psr: 6.22
+psr: 5.72
+psr: 5.49
+psr: 5.79
+psr: 6.92
+psr: 5.41
+psr: 5.83
+psr: 6.19
+psr: 5.92
+psr: 5.78
+psr: 6.05
+psr: 6.14
+psr: 5.31
+psr: 5.46
+psr: 5.15
+psr: 5.95
+psr: 5.91
+psr: 5.61
+psr: 5.47
+psr: 5.83
+psr: 6.07
+psr: 6.35
+psr: 5.38
+psr: 6.01
+psr: 6.22
+psr: 5.77
+psr: 5.24
+psr: 5.09
+psr: 5.47
+psr: 6.23
+psr: 5.8
+psr: 6.21
+psr: 5.74
+psr: 4.83
+psr: 4.77
+psr: 5.56
+psr: 5.66
+psr: 5.47
+psr: 5.38
+psr: 5.62
+psr: 5.39
+psr: 5.16
+psr: 4.74
+psr: 5.36
+psr: 4.63
+psr: 4.3
+psr: 5.26
+psr: 5.18
+psr: 6.15
+psr: 5.14
+psr: 4.67
+psr: 4.27
+psr: 4.03
+psr: 4.68
+psr: 5.29
+psr: 4.84
+psr: 5.96
+psr: 5.28
+psr: 5.34
+psr: 5.16
+psr: 4.88
+psr: 4.78
+psr: 5.29
+psr: 4.39
+psr: 4.16
+psr: 5.03
+psr: 4.42
+psr: 3.94
+psr: 3.67
+took 2.87 seconds to to complete tracking
+Empty all
+ironman TLD
+Empty all
+ironman DFT
+10/4 19:40:16
+clear
+clear
+clc
+clear
+clc
